@@ -44,8 +44,11 @@ related:
 9. [European Formats, Packaging, and Shelf Life](#9-european-formats-packaging-and-shelf-life)
 10. [Organic Potato Market Data](#10-organic-potato-market-data)
 11. [Strategic Implications for GPG/Tasteful Selections](#11-strategic-implications-for-gpgtasteful-selections)
-12. [Data Gaps and Recommended Next Steps](#12-data-gaps-and-recommended-next-steps)
-13. [Source Index](#13-source-index)
+12. [Transferability Risks: Europe to US](#12-transferability-risks-europe-to-us)
+13. [Investment Reality and Competitive Response](#13-investment-reality-and-competitive-response)
+14. [Investment Paths and Open Questions](#14-investment-paths-and-open-questions)
+15. [Data Gaps and Recommended Next Steps](#15-data-gaps-and-recommended-next-steps)
+16. [Source Index](#16-source-index)
 
 ---
 
@@ -229,7 +232,7 @@ If the total European processed potato sector is ~EUR 9.8B (EUPPA), and frozen a
 
 ### 4.4 Net Assessment
 
-The European trend clearly mirrors what we see in the US: **fresh table potato consumption is in structural decline; processed/value-added is growing.** The growth differential between fresh (declining) and processed (mid-single-digit CAGR) is well-documented. This supports the directional thesis that value-added is where the growth is. However, I cannot confirm the specific growth trajectory of the chilled/refrigerated sub-segment within processed.
+The European trend parallels the US: **fresh table potato consumption is in structural decline; processed/value-added is growing.** The growth differential between fresh (declining) and processed (mid-single-digit CAGR) is well-documented. This supports the directional thesis that value-added is where the growth is. However, I cannot confirm the specific growth trajectory of the chilled/refrigerated sub-segment within processed.
 
 ---
 
@@ -379,9 +382,9 @@ Lamb Weston's chilled presence in Europe is through **"freeze-chilled" products*
 
 ---
 
-### 5.6 CelaVita — The Cautionary Tale (BANKRUPT)
+### 5.6 CelaVita (BANKRUPT — August 2025)
 
-**This is a significant finding that was not in Brian's original materials.**
+**Note: This company was not in Brian's original materials. It was identified during research.**
 
 | Event | Detail | Date | Source | Verification |
 |---|---|---|---|---|
@@ -525,7 +528,7 @@ In **March 2025**, Post completed acquisition of **Potato Products of Idaho (PPI
 
 **I did not find evidence of significant new entrants disrupting the US refrigerated potato market.** Multiple searches returned the same 3-4 players (Bob Evans, Reser's/Main St Bistro, Simply Potatoes, Hormel). [CONFIRMED absence through multiple search iterations]
 
-The category appears structurally defended by: manufacturing complexity (fresh refrigerated requires dedicated infrastructure), short shelf life requiring cold chain, and retailer inertia (Bob Evans at 60% share). Unlike plant-based meat or premium yogurt, refrigerated potatoes have NOT attracted startup/DTC/premium entrants in any visible way.
+Observed barriers to entry include: manufacturing complexity (fresh refrigerated requires dedicated infrastructure), short shelf life requiring cold chain, and high incumbent concentration (Bob Evans at 60% share). Unlike plant-based meat or premium yogurt, refrigerated potatoes have not attracted startup/DTC/premium entrants in any visible way.
 
 ### 6.7 Tasteful Selections / RPE Current Market Position
 
@@ -620,7 +623,7 @@ In Europe, if fresh wholesale potato prices are ~$0.09-0.10/lb and chilled retai
 
 **The category leader (Bob Evans Original, 60% market share) has the weakest clean label profile of any major brand.** It contains soybean oil, monoglycerides, and two preservatives. Bob Evans does offer an "All Natural Homestyle" sub-line (4 ingredients, genuinely clean label), but this appears to be a smaller SKU, not the volume driver.
 
-**There is no dominant clean-label player at scale in US refrigerated potatoes.** This is a structural opening. [INFERRED from ingredient analysis]
+**There is no dominant clean-label player at scale in US refrigerated potatoes.** Whether this represents an untapped opportunity or reflects structural constraints (shelf life, distribution economics, consumer revealed preference) is addressed in Sections 11-12. [INFERRED from ingredient analysis]
 
 ### 8.3 European Clean Label Context
 
@@ -636,11 +639,11 @@ In Europe, if fresh wholesale potato prices are ~$0.09-0.10/lb and chilled retai
 
 **Source:** [Innova Market Insights](https://www.innovamarketinsights.com/trends/european-clean-label-trends/)
 
-### 8.4 Implications for GPG
+### 8.4 Summary
 
-The clean label gap in US refrigerated potatoes is real. The top-selling product (Bob Evans Original) has preservatives, soybean oil, and monoglycerides. European producers like Parmentine have demonstrated that a clean-label refrigerated potato product CAN work with 20-day shelf life and no preservatives.
+The clean label gap in US refrigerated potatoes is documented above. The top-selling product (Bob Evans Original) uses preservatives, soybean oil, and monoglycerides. European producers like Parmentine have demonstrated that a clean-label refrigerated potato product can achieve commercial viability with 20-day shelf life and no preservatives — though in a different market context (see Section 12 for transferability considerations).
 
-If Tasteful Selections could launch a clean-label refrigerated potato line — potatoes, milk, butter, salt, nothing else — they would be entering with a differentiated story vs. the incumbent leader. The European precedent (Parmentine, Peka Kroef) provides a proof point that this is technically and commercially feasible.
+Both Bob Evans and Reser's already sell clean-label sub-lines but have kept them as niche offerings rather than growth drivers. The reasons for this are not publicly documented — possible explanations include consumer demand levels, shelf life trade-offs, and distribution economics.
 
 ---
 
@@ -713,52 +716,257 @@ Two distinct product categories exist in European chilled potato retail, and the
 
 ### 10.3 Relevance to GPG
 
-Tasteful Selections has **75,000 CWT (7.5 million lbs) of organic by-product** currently selling at $0.02/lb. If an organic value-added refrigerated potato product could command even half the category average ($1.50/lb), that by-product converts from ~$150,000/year to ~$11.25 million/year in revenue. The organic premium in Europe is well-established; whether that premium carries through to refrigerated value-added specifically is unknown from public data.
+Tasteful Selections has **75,000 CWT (7.5 million lbs) of organic by-product** currently selling at $0.02/lb. At $1.50/lb retail, the gross revenue from this volume would be ~$11.25 million/year vs. ~$150,000/year at current disposal rates. The organic premium in Europe is well-established; whether that premium carries through to refrigerated value-added specifically is unknown from public data.
 
-**ASSUMPTION:** This calculation assumes the organic by-product is suitable for value-added processing (correct size, quality) and that organic refrigerated potato products would command at minimum $1.50/lb at retail. This assumption has NOT been validated against the actual by-product quality profile.
+**ASSUMPTION:** This calculation shows gross revenue only and does not account for processing, packaging, distribution, trade spend, or slotting costs (see Sections 13-14 for cost context). It also assumes the organic by-product is suitable for value-added processing (correct size, quality), which has NOT been validated against the actual by-product quality profile.
 
 ---
 
 ## 11. Strategic Implications for GPG/Tasteful Selections
 
-### 11.1 What the European Data Supports
+### 11.1 What the European Data Actually Tells Us
 
-1. **The directional thesis is valid.** Fresh potato consumption is in structural decline globally. Value-added/processed is growing. Europe shows the same pattern as the US — fresh declining, processed/value-added growing at mid-single-digit CAGRs.
+1. **The directional thesis is valid — with limits.** Fresh potato consumption is in structural decline globally. Value-added/processed is growing. Europe shows the same pattern as the US — fresh declining, processed/value-added growing at mid-single-digit CAGRs. But the European chilled potato segment is a niche within a niche, dominated by a handful of vertically integrated processors with decades of specialized experience.
 
-2. **Clean label is commercially viable in chilled potatoes.** Parmentine's "Easy & Good" launch (20-day shelf life, no preservatives, pre-cooked, 6 varieties) and Peka Kroef's pasteurized vacuum products demonstrate that you CAN make clean-label refrigerated potatoes work. European consumers are ahead of US consumers on clean label adoption.
+2. **Clean label is commercially viable in chilled potatoes — in Europe.** Parmentine's "Easy & Good" launch (20-day shelf life, no preservatives, pre-cooked, 6 varieties) and Peka Kroef's pasteurized vacuum products demonstrate that you CAN make clean-label refrigerated potatoes work. But these companies operate in markets where consumers shop 2-4x/week, expect shorter shelf life, and where clean label is a regulatory baseline, not a differentiator. Whether this transfers to US consumer behavior is an open question (see Section 12).
 
-3. **There is a clean label gap in the US market.** The dominant US player (Bob Evans Original, 60% share) uses preservatives and soybean oil. No clean-label brand exists at scale. Reser's "All Natural" line and Bob Evans "All Natural Homestyle" are niche offerings within their portfolios.
+3. **There is a clean label gap in the US market — but it may exist for structural reasons.** The dominant US player (Bob Evans Original, 60% share) uses preservatives and soybean oil. No clean-label brand exists at scale. However, both Bob Evans and Reser's already sell clean-label sub-lines (Bob Evans "All Natural Homestyle," Reser's "Main St Bistro All Natural") and have chosen not to push them aggressively. This may reflect a deliberate assessment that the US consumer does not reward clean label enough to justify shorter shelf life and higher production complexity — not that incumbents are asleep. [INFERRED]
 
-4. **The "different story than USA producers" Brian wants IS the clean label story.** European producers have leaned into minimal ingredients, no preservatives, shorter shelf life, premium positioning. That is the differentiation vs. Bob Evans/Reser's.
+4. **The "different story than USA producers" Brian wants IS the clean label story — but different may also mean structurally harder to execute in the US.** European producers have leaned into minimal ingredients, no preservatives, shorter shelf life, premium positioning. That differentiation vs. Bob Evans/Reser's comes with real trade-offs in shelf life, distribution economics, and competitive response (see Sections 13-14).
 
 ### 11.2 What the European Data Warns Against
 
-1. **CelaVita's bankruptcy is a material risk signal.** A 55-year-old company, former Benelux chilled market leader, backed by McCain for 12 years, sold to PE, bankrupt in 15 months. 10 potential buyers walked away. Chilled potato processing is capital-intensive and operationally demanding. Success is not guaranteed.
+1. **CelaVita's bankruptcy is a material data point.** A 55-year-old company, former Benelux chilled market leader, backed by McCain for 12 years, sold to PE, bankrupt in 15 months. 10 potential buyers evaluated the operation and all walked away, citing capital intensity and unfavorable facility economics. CelaVita's debts at bankruptcy: EUR 22M. 171 jobs lost. The factory is being dismantled and auctioned. This is not an edge case — it is evidence that chilled potato processing is operationally unforgiving, particularly without vertical integration and scale. [DOUBLE-VERIFIED]
 
-2. **Chilled potato is NOT the same as frozen potato.** The European market is overwhelmingly frozen. Chilled is a niche within a niche. The companies succeeding in chilled (Aviko, Peka Kroef) have been in it for decades with specialized infrastructure.
+2. **Chilled potato is NOT the same as frozen potato — and the economics are fundamentally different.** The European market is overwhelmingly frozen. Chilled is a niche. The critical difference: frozen production creates an inventory buffer (produce ahead, store for months, ship when orders arrive). Chilled operates on a make-to-order or very short make-to-stock cycle. Any demand shortfall translates directly to waste. This is what killed CelaVita and what makes sub-scale chilled operations fragile. [CONFIRMED — industry sources, CelaVita case]
 
-3. **Shelf life is the operational challenge.** European fresh chilled products have ~20 days shelf life. US refrigerated potato products use preservatives to achieve 60-90 days. GPG would need to either: (a) match European clean label with shorter shelf life (challenging for US distribution), or (b) find clean preservation methods that extend shelf life (Parmentine appears to do this through cooking/pasteurization methods). This is a fundamental operational question for the innovation team.
+3. **Shelf life is not just an operational challenge — it is a structural moat for US incumbents.** Bob Evans' 60-90 day preservative-extended shelf life enables centralized production in Ohio and warehouse distribution nationally. A 20-day clean-label product cannot be distributed nationally from a single plant. It requires either regional production facilities (multiplying CapEx) or direct-store delivery (adding $50K-$100K per truck per year in operating costs). Distribution economics may be one reason the clean label gap persists in the US. [INFERRED from distribution analysis]
 
 4. **The European market data Brian specifically wants (SKU-level share, weekly sales by store, margin data) simply does not exist in public sources.** If the team needs that granularity, they would need to purchase Euromonitor or Circana Europe reports (est. $1,200-$2,500+).
 
-### 11.3 The Size of the Prize
+### 11.3 By-Product Economics — Illustrative Only
 
-| Scenario | By-Product Used | Assumed Price | Revenue | vs. Current ($100K) |
+The revenue math on converting by-product from $0.02/lb to value-added pricing is directionally compelling but incomplete without cost context. This section presents the top-line math; see Sections 13-14 for the investment required to capture it.
+
+| Scenario | By-Product Used | Assumed Retail Price | Gross Revenue | vs. Current (~$1.15M) |
 |---|---|---|---|---|
 | Current state (feed/commodity) | 50M lbs conv. + 7.5M lbs organic | $0.02/lb | ~$1.15M | Baseline |
-| Conservative: Convert 10% at $1.50/lb | 5.75M lbs | $1.50/lb | $8.6M | 7.5x |
-| Moderate: Convert 25% at $2.00/lb | 14.4M lbs | $2.00/lb | $28.8M | 25x |
-| Aggressive: Convert 50% at $2.50/lb | 28.8M lbs | $2.50/lb | $71.9M | 62x |
+| Conservative: Convert 10% | 5.75M lbs | $1.50/lb | $8.6M | 7.5x |
+| Moderate: Convert 25% | 14.4M lbs | $2.00/lb | $28.8M | 25x |
+| Aggressive: Convert 50% | 28.8M lbs | $2.50/lb | $71.9M | 62x |
 
-**ASSUMPTION: These scenarios assume the by-product is suitable for value-added processing, that manufacturing infrastructure can be secured or built, and that retail distribution can be achieved. None of these have been validated. The pricing assumptions are based on the US refrigerated potato market average of $3.02/lb, discounted to reflect that a new entrant would likely need to compete on price initially.**
+**What this table does NOT show:**
+- **CapEx to get there:** Estimated $2-5M (contract manufacturing) to $40-100M+ (dedicated facility), depending on manufacturing path (see Sections 13-14)
+- **COGS reality:** Raw potato input is only 2-15% of total COGS. Processing ($0.30-0.50/lb), packaging ($0.10-0.20/lb), and distribution ($0.15-0.25/lb) dominate. Even with $0.02/lb input cost, all-in COGS is likely $0.75-1.25/lb before trade spend
+- **Trade spend:** 15-30% of gross sales for a new refrigerated CPG brand. On $28.8M gross revenue, that is $4.3-8.6M
+- **Slotting fees:** $25K-$250K per SKU per retailer for refrigerated shelf access. National launch = $500K-$1.5M+
+- **Failure rate:** 80-85% of new CPG products fail within 2 years [CONFIRMED — Nielsen/IRI]
+- **Ramp time:** Realistic year-one volume is 5-10M lbs (regional), not 28M lbs. Full conversion would take 3-5+ years if successful
+
+**The by-product cost advantage is real but smaller than it appears.** At $0.02/lb input vs. $0.08-0.12/lb for processing potatoes, GPG saves $0.06-0.10/lb — roughly $3-5M/year on 50M lbs. That is meaningful but does not transform the economics of a business that will spend $0.75-1.25/lb on everything else. [INFERRED from industry cost benchmarking]
 
 **Note:** The typical yield breakdown per Brian's workbook suggests: Nibbles 3-4%, 1 Bites 17%, 2 Bites 54%, 3 Bites 25%. The "most likely targets" for value-added would be "Nibbles through 2 Bite size 3" for whole/baby format and "Above 2 Bite size 3 for Mashed, Halves, Quarters, Sliced, or Cubed." [SINGLE-VERIFIED — Brian's working file]
 
 ---
 
-## 12. Data Gaps and Recommended Next Steps
+## 12. Transferability Risks: Europe to US
 
-### 12.1 What We Don't Know (Critical Gaps)
+**This section addresses a critical assumption underlying the entire analysis: that European chilled potato market success is evidence that a similar product can succeed in the US. There are structural reasons to question this assumption.**
+
+### 12.1 Consumer Behavior Gap
+
+The European chilled potato market developed within a consumer ecosystem that differs materially from the US:
+
+| Dimension | Europe | US | Implication for Transferability |
+|---|---|---|---|
+| **Shopping frequency** | 2-4 trips/week (NL: 67% shop 2-4x/week; France: ~80% weekly+) | 1.6 trips/week average | Europeans buy fresh/chilled more often because they shop more often. US consumers stock up, favoring longer shelf life. [CONFIRMED — FMI, Statista, McKinsey] |
+| **Refrigerator size** | Smaller; less bulk storage | Larger; designed for weekly+ stocking | US consumers expect products to last in the fridge. 20-day shelf life is acceptable in NL; in the US, consumers may buy it once, not use it fast enough, and not repurchase. [INFERRED] |
+| **Cooking from scratch** | Higher frequency; 74% of Southern Europeans cook 5+ times/week | 81% cook >half meals at home but convenience-oriented; mashed potatoes bought as a finished side dish, not a cooking ingredient | European chilled potatoes are often semi-prepared (cook to finish). US refrigerated potatoes are overwhelmingly ready-to-eat (heat and serve). Different consumer occasion. [CONFIRMED — NFRA, Innova] |
+| **Clean label expectations** | Regulatory baseline — EU precautionary principle bans many US-permitted additives | Aspirational — 68% want "no artificial ingredients" but buy preservative-laden products at 60% market share | In Europe, clean label is table stakes (enforced by EFSA). In the US, consumers say they want it but revealed preference shows they buy Bob Evans Original, not Bob Evans All Natural. The attitude-behavior gap is real. [CONFIRMED — Innova, Nielsen share data] |
+| **Ready meal culture** | UK: 86-88% eat ready meals; chilled = 70% of UK ready meal market. Continental Europe varies widely. | Frozen-dominant; no equivalent chilled meal infrastructure | The UK — not France or Netherlands — is the closest European analog to the US. But even the UK chilled market took decades to develop, driven by retailer-led infrastructure investment (Tesco, Marks & Spencer). [CONFIRMED — multiple sources] |
+
+### 12.2 Product-Type Mismatch
+
+**The US refrigerated potato market and the European chilled potato market are selling fundamentally different products to different occasions.**
+
+| Dimension | US Refrigerated Potatoes | European Chilled Potatoes | What TS Would Likely Make |
+|---|---|---|---|
+| **Dominant format** | Mashed (66% of $950M market) | Fries, wedges, whole baby, cubes, gratins — diverse | Whole/cut baby potatoes, clean label |
+| **Consumer occasion** | Heat-and-serve side dish (dinner) | Semi-prepared ingredient or quick-cook side | Somewhere between — likely closer to European model |
+| **Shelf life** | 60-90 days (preservatives) | 7-30 days (pasteurized, vacuum-packed) | Would need to choose: short shelf life (clean) or long (preservatives) |
+| **Price architecture** | $2.88-3.61/lb (Bob Evans to Reser's) | I DON'T KNOW at retail level | Unknown — no direct US comparable for this product type |
+| **Channel** | Deli/prepared foods aisle | Chilled section (varies by country) | Would require aisle migration from produce to deli |
+
+**The $950M US refrigerated potato market is not the addressable market for a Tasteful Selections value-added product.** That market is 66% mashed potatoes sold in tubs. A whole/cut clean-label baby potato product would be creating a new sub-segment within refrigerated, not entering the existing one. There is no existing data on consumer demand for this specific product format in the US because it does not currently exist at scale. [INFERRED]
+
+### 12.3 The Shelf Life / Distribution Trap
+
+**Bob Evans' 60-90 day shelf life functions as both a product feature and a distribution strategy.** It enables:
+- Centralized manufacturing in Ohio (Lima and Xenia plants)
+- Standard warehouse distribution through retailer DCs
+- National coverage from a small number of facilities
+- Low spoilage/shrink in the supply chain
+
+**A 20-day clean-label product inverts all of this:**
+- Cannot ship nationally from one plant — transit + DC dwell time + retail shelf time consumes the entire window
+- Requires either regional production facilities (multiplying CapEx by 2-4x) or direct-store delivery ($50K-$100K per truck per year)
+- Higher spoilage/waste rates — any demand forecasting error becomes total product loss
+- Retailers must turn inventory faster, which means higher velocity requirements to justify shelf space
+
+**Reser's solution is instructive:** They invested $120M in a dedicated potato plant in Pasco, WA, plus $34M in a Topeka, KS expansion — creating a multi-facility regional production network. Their product still uses nisin (a natural antimicrobial) to extend shelf life beyond what a fully clean label would allow. Even the most aggressive US competitor hedges on shelf life. [CONFIRMED — Reser's public announcements]
+
+**European companies solve this differently** because the distribution distances are shorter (Netherlands to Germany is 300 miles; Ohio to California is 2,400 miles) and consumers shop more frequently. The logistics math is structurally different. [INFERRED]
+
+### 12.4 Summary
+
+The European data establishes that clean-label chilled potato products can be manufactured, sold, and scaled by experienced operators in European markets. The factors above — consumer behavior differences, product-type mismatch, and distribution economics — are structural differences between European and US markets that affect how directly European success translates to the US context. These factors do not invalidate the European data; they define the conditions under which it applies.
+
+**Confidence: This entire section is INFERRED — synthesized from confirmed data points about consumer behavior, distribution economics, and market structure. No single source makes this argument; it is an analytical conclusion.**
+
+---
+
+## 13. Investment Reality and Competitive Response
+
+### 13.1 Capital Requirements
+
+**There is no US chilled potato processing facility to benchmark against.** The following estimates are triangulated from frozen potato plant investments, general food processing facility costs, and the CelaVita case.
+
+| Investment Component | Estimated Range | Basis | Confidence |
+|---|---|---|---|
+| Processing equipment (wash, peel, cut, cook, pasteurize, package) | $15M-$40M | CelaVita equipment auction (specialized suppliers: TOMRA, Kiremko, Marcelissen, MULTIVAC), Reser's $120M Pasco plant, general RTE vegetable processing benchmarks | SPECULATIVE — no direct US chilled potato benchmark |
+| Refrigerated facility (building, cold storage, loading docks) | $12M-$25M | Cold storage construction at $130-$350/sqft; food processing plants at $250-$500+/sqft installed | INFERRED from construction industry data |
+| Utility infrastructure (sanitation, water treatment, wastewater) | $5M-$15M | Industry rule of thumb: utility infrastructure can equal equipment cost for RTE facilities | INFERRED |
+| Installation, commissioning, validation | 1.5-2x equipment cost | Industry standard multiplier for piped/instrumented food processing | CONFIRMED — industry standard |
+| **Total greenfield estimate** | **$40M-$100M+** | Triangulated from above | **SPECULATIVE — order of magnitude only** |
+
+**Comparables:**
+- Agristo (frozen potato plant, Grand Forks ND): $450M for 250K tons/year — greenfield, fully automated [CONFIRMED]
+- Lamb Weston (American Falls ID expansion): $415M for +1M lbs/day fry capacity [CONFIRMED]
+- Aviko (Poperinge, Belgium, frozen/dried): EUR 200M for 175K tons/year [CONFIRMED]
+- Reser's (Pasco WA, refrigerated potato): $120M dedicated potato plant, 500K+ lbs/day [CONFIRMED]
+- CelaVita (bankrupt): EUR 22M in debts at failure; 171 employees [CONFIRMED]
+
+**Key insight:** The frozen potato benchmarks are for much larger scale operations. A chilled potato line would be smaller but the per-ton complexity is comparable — the equipment suppliers (TOMRA, Kiremko, MULTIVAC) are the same. Reser's $120M Pasco plant is the most relevant US comparable and it processes refrigerated (not clean-label chilled) potatoes with preservative-extended shelf life.
+
+### 13.2 Operating Cost Structure
+
+| Cost Component | Estimated $/lb | Notes | Confidence |
+|---|---|---|---|
+| Raw material (by-product input) | $0.02 | GPG internal — this is the advantage | CONFIRMED |
+| Raw material (if buying processing potatoes) | $0.08-0.12 | Market price | SINGLE-VERIFIED |
+| Processing (cooking, pasteurization, cooling) | $0.30-0.50 | Estimated from RTE vegetable processing | SPECULATIVE |
+| Packaging (vacuum pack, MAP, labeling) | $0.10-0.20 | MULTIVAC and industry packaging costs | INFERRED |
+| Distribution (refrigerated, to retailer DC or DSD) | $0.15-0.25 | Reefer freight ~18% premium over dry; DSD adds cost | INFERRED |
+| Waste/shrink (chilled-specific) | $0.05-0.15 | Higher than frozen due to short shelf life; CelaVita's fatal weakness | INFERRED |
+| **All-in COGS estimate** | **$0.75-1.25/lb** | Before trade spend, slotting, SG&A | **SPECULATIVE** |
+
+**At $2.00-2.50/lb retail and typical retailer margins of 30-35%, the manufacturer's realized price would be ~$1.30-1.75/lb.** Against all-in COGS of $0.75-1.25/lb, gross margin would be roughly 25-45% before trade spend consumes 15-30% of gross sales. **Net margin on this product could be thin to negative in years 1-3.** [SPECULATIVE — illustrative math only]
+
+### 13.3 Go-to-Market Costs
+
+| Cost Category | Estimated Range | Notes | Confidence |
+|---|---|---|---|
+| Slotting fees (national launch) | $500K-$1.5M+ | $25K-$250K per SKU per retailer; varies by chain | CONFIRMED — FTC, trade sources |
+| Trade spend (year 1) | 15-30% of gross sales | Industry standard for new refrigerated CPG | CONFIRMED — Frozen & Refrigerated Buyer |
+| Broker/distributor fees | 3-8% of sales | Standard for new brand without established retail relationships in deli | INFERRED |
+| Marketing/consumer awareness | $1-3M+ | Required to drive trial for an unknown brand in a new aisle | INFERRED |
+| **Year 1 go-to-market (non-manufacturing)** | **$3-8M+** | On top of manufacturing CapEx | INFERRED |
+
+**Critical context on aisle migration:** Tasteful Selections has established relationships with produce buyers at major retailers. **These relationships do not transfer to the deli/prepared foods buyer.** Different buyer, different category review cycle, different margin expectations, different promotional mechanics. Entering the refrigerated prepared foods aisle is functionally a cold start from a retail relationship standpoint, regardless of brand recognition in produce. [INFERRED from trade channel structure]
+
+### 13.4 Competitive Response
+
+**Incumbents already have clean-label products on the shelf and have chosen to keep them as niche offerings.**
+
+| Competitor | Current Clean Label Position | Likely Response to GPG Entry | Timeline | Confidence |
+|---|---|---|---|---|
+| **Post/Bob Evans** | "All Natural Homestyle" (4 ingredients) exists as a niche SKU | Expand All Natural distribution as a blocking play; use excess capacity (confirmed in Q1 FY2026 earnings) to flood shelves | 3-6 months | INFERRED from public filings |
+| **Reser's** | "Main St Bistro All Natural" with nisin (natural antimicrobial); growing 14.2% | Already executing premium/natural strategy at $3.61/lb with $120M+ in new capacity | Already in motion | CONFIRMED |
+| **Private label** | 17% share, growing 8.3% in volume at $2.91/lb | Walmart's Bettergoods premium PL launch could pre-empt clean-label positioning at lower price | 6-12 months | INFERRED |
+| **Post M&A machine** | 25+ acquisitions since 2012, including Bob Evans ($1.5B, 2018) and PPI (2025) | If a clean-label challenger reaches $20-50M revenue, Post's most likely move is acquisition, not competition | 2-4 years if GPG succeeds | INFERRED from Post's stated strategy |
+
+**Post Holdings' Q1 FY2026 earnings call (February 2026) confirmed they have excess refrigerated potato capacity and are filling it with private label mashed potatoes and mac & cheese.** They have the manufacturing headroom to respond to any competitive threat without new investment. [CONFIRMED — Post Holdings public filing]
+
+**Possible competitive scenarios include:** (a) incumbent clean-label line extensions accelerate in response to a new entrant, (b) private label captures the clean-label positioning at lower price points, (c) Post acquires a successful clean-label challenger (consistent with their M&A pattern), or (d) a new entrant establishes a defensible niche through brand differentiation and distribution relationships incumbents are unwilling to replicate. Historical precedent for sustained independent success against 93% combined incumbent share in refrigerated food categories is limited but not nonexistent. [SPECULATIVE]
+
+### 13.5 What CelaVita Really Tells Us
+
+CelaVita's failure deserves a standalone synthesis because it is the closest available case study for what GPG would be attempting:
+
+| CelaVita Attribute | GPG/Tasteful Selections Comparison |
+|---|---|
+| 55-year chilled potato operating history | Zero chilled potato processing experience |
+| Benelux market leader in chilled | No presence in US refrigerated prepared foods |
+| Backed by McCain (12 years) then PE fund | PE-backed (Teays River) with different strategic priorities |
+| Standalone processor post-McCain — no vertical integration | Vertically integrated in raw material (advantage) but no processing infrastructure |
+| Operated in markets with 2-4x/week shopping frequency | Would operate in market with 1.6x/week shopping |
+| EUR 22M in debts at bankruptcy | See CapEx estimates above |
+| 10 potential buyers all walked away | — |
+
+**CelaVita had more chilled potato experience, an established market position, shorter distribution distances, and operated in a market with more favorable consumer behavior for chilled products.** The counterargument is that CelaVita's failure was execution-specific — Nimbus' turnaround approach, the split property structure, and loss of McCain's distribution network — rather than evidence that the category is unworkable. Peka Kroef and Aviko are operating successfully in the same market. GPG's vertical integration in raw material supply is an advantage CelaVita lacked post-McCain. [INFERRED]
+
+---
+
+## 14. Investment Paths and Open Questions
+
+### 14.1 Manufacturing Paths
+
+Any move into refrigerated value-added potatoes requires processing infrastructure that does not exist within GPG today. Three general approaches exist, each with different capital requirements and risk profiles.
+
+| Path | Description | Estimated Investment | Timeline to Revenue | Capital at Risk Before Market Validation |
+|---|---|---|---|---|
+| **A: Co-Pack Partnership** | Partner with existing RTE vegetable co-packer to produce clean-label refrigerated potatoes; test in regional retailers | $2-5M (formulation, co-pack setup, slotting, initial trade spend) | 9-18 months | Low |
+| **B: Retrofit Existing Facility** | Adapt existing GPG/TS processing capacity for chilled potato line; requires pasteurization and vacuum packaging additions | $15-30M (equipment, installation, facility modifications) | 18-30 months | Moderate — committed before market feedback |
+| **C: Greenfield Dedicated Facility** | Build or acquire purpose-built chilled potato processing plant | $40-100M+ | 30-48 months | High — committed before market feedback |
+
+**Each path carries a different relationship between capital commitment and market certainty.** Path A generates market data before the bulk of capital is deployed. Paths B and C require significant investment before consumer demand is validated.
+
+### 14.2 Unresolved Questions
+
+Regardless of manufacturing path, the following questions remain unanswered and are material to any investment decision:
+
+| Question | Why It Matters | Current Status |
+|---|---|---|
+| Will US consumers buy a whole/cut clean-label refrigerated potato product? | This specific product does not exist at scale in the US. All demand estimates are hypothetical. | UNKNOWN — no US market data exists |
+| Is the by-product suitable for value-added processing? | Everything downstream depends on input quality and consistency | NOT VALIDATED — requires internal quality assessment |
+| What shelf life is achievable without preservatives? | Determines distribution model (national vs. regional), which determines CapEx and operating cost structure | NOT VALIDATED — requires formulation trials |
+| Does the Tasteful Selections brand carry from produce to deli? | Aisle migration means selling to different buyers through different channels against different competitors | NOT TESTED — produce buyer relationships do not transfer |
+| What price point will consumers accept? | Must cover $0.75-1.25/lb all-in COGS plus 15-30% trade spend; below ~$1.50/lb realized manufacturer price, margins are likely negative | UNKNOWN — no comparable US product to benchmark |
+| What velocity is required to hold shelf space? | Refrigerated products need ~5-7 units/store/week to retain shelf at major retailers | NOT TESTED — depends on retailer, format, and price |
+| What is the realistic spoilage/waste rate in US distribution? | Chilled products with short shelf life face higher waste than preserved alternatives; this was CelaVita's core operating problem | UNKNOWN — requires real product in real cold chains |
+
+### 14.3 Financial Context for Any Path
+
+The revenue scenarios in Section 11.3 describe gross revenue from by-product conversion. The following costs sit between gross revenue and operating profit and are not captured in those scenarios:
+
+| Cost Layer | Estimated Impact | Notes |
+|---|---|---|
+| All-in COGS (processing, packaging, distribution, waste) | $0.75-1.25/lb | See Section 13.2 — raw material is only 2-15% of total COGS |
+| Retailer margin | 30-35% of retail price | Manufacturer realizes ~$1.30-1.75/lb on a $2.00-2.50/lb retail product |
+| Trade spend | 15-30% of gross sales | Industry standard for new refrigerated CPG brands [CONFIRMED] |
+| Slotting fees | $500K-$1.5M+ for national launch | Per-SKU, per-retailer; varies by chain [CONFIRMED] |
+| Marketing/consumer trial | $1-3M+ in early years | Required for an unknown brand entering a new aisle |
+| Manufacturing CapEx (annualized) | Depends on path: $0.5-1M/yr (co-pack) to $5-15M/yr (owned, amortized) | See Section 14.1 |
+
+**At the "Moderate" revenue scenario ($28.8M gross), after retailer margins, trade spend, COGS, and slotting, operating margin could range from thin to negative in the first several years.** This is not unusual for new CPG launches but is relevant context for any revenue-focused business case. [INFERRED — illustrative math, not a financial model]
+
+### 14.4 Competitive Considerations
+
+Any investment decision should account for the current competitive posture of incumbents:
+
+- **Post Holdings has confirmed excess refrigerated potato capacity** (Q1 FY2026 earnings call) and is actively filling it with private label. They have manufacturing headroom to respond to competitive threats without new investment. [CONFIRMED]
+- **Both Post (Bob Evans) and Reser's already sell clean-label product lines** and have chosen to keep them as niche offerings. Whether this reflects lack of consumer demand or strategic restraint is unclear — but the capability exists.
+- **Post's acquisition history** (25+ deals since 2012, including Bob Evans for $1.5B in 2018) suggests that successful new entrants in adjacent categories are acquisition targets. This is neither positive nor negative — but it is a factor in how the long-term competitive landscape evolves.
+- **Private label is growing at 8.3% in volume** at $2.91/lb — nearly matching Bob Evans' pricing. Walmart's Bettergoods premium private-label launch could compete for the same clean-label positioning.
+- **80-85% of new CPG products fail within 2 years.** [CONFIRMED — Nielsen/IRI] This is the base rate for the category, not specific to this product.
+
+---
+
+## 15. Data Gaps and Recommended Next Steps
+
+### 15.1 What We Don't Know (Critical Gaps)
+
+**European Market Gaps (original):**
 
 | Gap | Why It Matters | Recommended Action |
 |---|---|---|
@@ -770,9 +978,21 @@ Tasteful Selections has **75,000 CWT (7.5 million lbs) of organic by-product** c
 | Peka Kroef and Quik's actual financials | Revenue figures are estimates, not audited | Dutch KvK (Chamber of Commerce) filings (paid access) |
 | Parmentine revenue | Cooperative financials not online | French Greffe du Tribunal de Commerce filings |
 | Aviko chilled vs. frozen revenue split | Can't size the chilled leader's actual chilled business | Contact Royal Cosun investor relations or access full annual report |
-| US by-product suitability for value-added | Everything assumes the potato by-product is usable | Internal quality/specs assessment by innovation team |
 
-### 12.2 Recommended Paid Reports
+**US Market and Feasibility Gaps (new — from Sections 12-14):**
+
+| Gap | Why It Matters | Recommended Action |
+|---|---|---|
+| US by-product suitability for value-added | Everything assumes the potato by-product is usable at required quality and consistency | Internal quality/specs assessment by innovation team — this is gate zero |
+| US consumer demand for whole/cut clean-label refrigerated potatoes | This specific product does not exist at scale in the US; all revenue estimates are hypothetical | Consumer concept testing and/or limited market trial (see Section 14) |
+| Achievable shelf life with clean-label formulation | Determines distribution model (national vs. regional), CapEx requirements, and competitive viability | R&D / formulation trials; target minimum 30-day shelf life for US distribution viability |
+| Realistic processing yield from by-product | Net usable output from 50M lbs gross is unknown; impacts all volume and revenue scenarios | Trial processing runs (internal or with contract manufacturer) |
+| Deli/prepared foods buyer receptivity at target retailers | Aisle migration has not been tested; produce buyer relationships don't transfer | Exploratory conversations with deli/prepared foods category managers at 2-3 key accounts |
+| Post Holdings competitive response timeline | Post has confirmed excess capacity; speed of clean-label response is unknown | Monitor Post earnings calls and Bob Evans product launches quarterly |
+| Contract manufacturer availability and capability for chilled potato | Whether a suitable RTE vegetable contract manufacturer exists has not been validated | Innovation team should contact DC Norris North America, Raque Food Systems, and 2-3 RTE vegetable processors for capability assessment |
+| CapEx estimate validation | All facility cost estimates are speculative triangulations, not quotes | Formal RFI/RFP process with equipment suppliers and design-build firms if project advances to owned manufacturing |
+
+### 15.2 Recommended Paid Reports
 
 | Report | Publisher | Estimated Cost | What It Would Provide |
 |---|---|---|---|
@@ -781,17 +1001,24 @@ Tasteful Selections has **75,000 CWT (7.5 million lbs) of organic by-product** c
 | "Europe Frozen Potatoes Market" (full) | Market Data Forecast | $2,000-$4,000 | Detailed country breakdowns, competitive analysis |
 | Custom chilled potato retail tracking | Circana/NielsenIQ Europe | $5,000-$15,000+ | SKU-level data, weekly sales, market share, promotion analysis |
 
-### 12.3 Suggested Internal/Industry Actions
+### 15.3 Suggested Internal/Industry Actions
 
+**European research (original):**
 1. **Contact EUPPA directly** (euppa.eu) — request the full 2025 Facts & Figures including frozen vs. chilled breakdown
 2. **Contact Parmentine** — as a cooperative, they may be willing to share general market insights (they're not a direct competitor to GPG in North America)
 3. **Brian should debrief his Quik's Quality visit in detail** — the Feb 2025 tour with Kroeker Farms likely yielded insights not captured in any public source
 4. **Conduct in-store retail audits** in UK (Tesco, Sainsbury's), Netherlands (Albert Heijn), and France (Carrefour, Leclerc) for chilled potato products — pricing, shelf space, brand mix, ingredient lists
-5. **Innovation team should evaluate equipment integrators** — Brian's working file already lists DC Norris North America, Raque Food Systems, Heat & Control, E Tech Group, Waldrop Company, and Haskell as potential RTE system providers
+
+**US feasibility (new):**
+5. **Evaluate both co-pack partners and equipment integrators** — Brian's working file lists DC Norris North America, Raque Food Systems, Heat & Control, E Tech Group, Waldrop Company, and Haskell as potential RTE system providers. Separately, identify RTE vegetable co-packers who could support early-stage production to understand the full range of manufacturing options and their respective cost structures.
+6. **Conduct exploratory conversations with deli/prepared foods buyers** at 2-3 retailers where Tasteful Selections already has produce relationships — test whether brand equity and buyer relationships carry across aisles
+7. **Commission or conduct a small consumer research study** — concept test for a clean-label whole/cut refrigerated potato product with 200-300 US consumers to gauge purchase intent, price sensitivity, and competitive substitution patterns
+8. **Model the full P&L under multiple manufacturing scenarios** — co-pack, retrofit, and greenfield each produce different margin structures. Understanding the P&L at each scale informs the investment decision.
+9. **Monitor Post Holdings quarterly earnings** for signals on clean-label expansion, private label capacity allocation, or M&A activity in refrigerated prepared foods
 
 ---
 
-## 13. Source Index
+## 16. Source Index
 
 ### Government / Official Sources
 - [Eurostat Potato Sector Statistics](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=The_EU_potato_sector_-_statistics_on_production,_prices_and_trade)

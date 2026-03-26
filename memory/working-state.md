@@ -10,12 +10,15 @@ tags:
   - european-potato
   - value-added
   - chilled-potato
+  - cfo-analysis
+  - risk-assessment
 status: active
 scope: gpg-strategic-research
 related:
   - context/competitor-landscape.md
   - context/gpg-capabilities.md
-summary: "European value-added/refrigerated potato company research. 8 companies profiled. Session 2026-03-23."
+  - research/european-refrigerated-potato-analysis.md
+summary: "Added CFO-lens risk sections to European refrigerated potato analysis. Three new sections: transferability risks, investment reality, and path analysis. Reframed Size of the Prize as illustrative math with full cost caveats."
 ---
 
 # Working State
@@ -24,13 +27,24 @@ summary: "European value-added/refrigerated potato company research. 8 companies
 
 ## Currently Working On
 
-European value-added/refrigerated potato company deep-dive research for Jon. Eight companies profiled: Peka Kroef, Quik's Quality, Parmentine, Aviko, McCain Europe (chilled), Lamb Weston EMEA, Farm Frites, and A.J. Lanzarotta. Full findings compiled.
+European value-added/refrigerated potato analysis — second pass adding critical risk assessment sections requested by Jon. Framing through CFO lens: what would make a CFO skeptical of this proposition.
 
 ## Where We Left Off
 
-Completed comprehensive research pass on all 8 companies. Key finding: CelaVita (McCain's chilled potato subsidiary) went bankrupt in 2025 after Nimbus acquisition — significant market event. Peka Kroef acquired former Aviko site (Frespo) in 2024 and is consolidating as chilled leader. Aviko claims 50% worldwide chilled fries market share.
+Completed addition of three new sections (12-14) to european-refrigerated-potato-analysis.md:
+- Section 12: Transferability Risks (consumer behavior gap, product-type mismatch, shelf life/distribution trap)
+- Section 13: Investment Reality and Competitive Response (CapEx estimates, operating costs, go-to-market costs, competitive response scenarios, CelaVita synthesis)
+- Section 14: Path Analysis — CFO Lens (three paths: co-pack pilot, retrofit, greenfield; kill criteria framework)
+
+Also rewrote Section 11 to be more balanced — reframed "Size of the Prize" as "By-Product Economics — Illustrative Only" with full cost context below the revenue scenarios. Updated Section 15 (renumbered from 12) with new US feasibility data gaps.
+
+Supporting research files created by subagents:
+- research/us-vs-europe-consumer-behavior-food-prep.md
+- research/us-refrigerated-barriers-to-entry.md
+- research/us-refrigerated-potato-competitive-dynamics.md
 
 ## Active Decisions Pending
 
 - Whether to add European potato competitors to competitor-landscape.md as a new segment
 - Whether to create a dedicated context file for European value-added potato market
+- Jon may want to refine or adjust tone/framing of the new sections before sharing with Brian's team
