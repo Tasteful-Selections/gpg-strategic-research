@@ -13,6 +13,8 @@ summary: "End-of-session digest writer that captures decisions, context, and nex
 
 # Session Digest
 
+**Superseded by session-wrap in this vault.** Session-wrap does everything this skill does plus git commit and push. Kept as reference template.
+
 Write a structured session digest at the end of a work session. This prevents the "empty memory" problem — every session that produces meaningful work leaves a written record.
 
 ## When to Use This

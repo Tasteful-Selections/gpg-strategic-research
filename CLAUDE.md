@@ -33,6 +33,14 @@ VP of Business Intelligence at Grimmway Produce Group, the world's largest carro
 | Competitive segments, who GPG competes with | `context/competitor-landscape.md` |
 | M&A fit criteria, acquisition priorities | `context/ma-criteria.md` |
 
+## Skills
+
+Skills auto-trigger based on their descriptions:
+- `session-start` — Open a session: sync git, load context (`/start`)
+- `session-sync` — Mid-session checkpoint: commit and push (`/sync`)
+- `session-wrap` — Close a session: digest, commit, push (`/wrap` — supersedes session-digest)
+- `session-digest` — *(Superseded by session-wrap. Kept as template.)*
+
 ## File Metadata
 
 All reference and context files include YAML frontmatter with a `summary` field describing what the file contains and when to consult it. Check the summary field first when deciding which file to load — don't load files speculatively.
@@ -54,11 +62,13 @@ If no frontmatter match is found, fall back to directory browsing and filename m
 
 - `memory/working-state.md` — Ephemeral session buffer. Overwritten each session.
 - `memory/open-threads.md` — Persistent tracker with Active, Completed, and Dropped sections.
-- `memory/digests/` — Session digests written via the session-digest skill.
+- `memory/digests/` — Session digests written via the session-wrap skill.
 
 Memory files are more current than context files. Do not create memory files speculatively — add when the need emerges.
 
 ## Session Start Sequence
+
+0. **Check git state** — Run `git status` and `git log --oneline -1 origin/main..HEAD`. If there are uncommitted changes or unpushed commits, tell Jon: "You have unsynced changes. Run `/start` to sync before we begin." If everything is clean, proceed to Step 1. If Jon invoked `/start`, skip this step — `/start` handles git state internally.
 
 1. Read `memory/working-state.md` — resume active work if present
 2. Scan frontmatter of `memory/` — load files matching current task

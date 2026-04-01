@@ -11,10 +11,14 @@
             "id": "31cf2785325115c8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "research/european-refrigerated-potato-analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "european-refrigerated-potato-analysis"
             }
           }
         ]
@@ -177,5 +181,25 @@
     }
   },
   "active": "31cf2785325115c8",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "research/european-refrigerated-potato-summary.md",
+    "research/european-refrigerated-potato-analysis.md.tmp.149620.1774297898410",
+    "sedAKyxzU",
+    "research/us-refrigerated-potato-competitive-dynamics.md",
+    "research/us-refrigerated-barriers-to-entry.md",
+    "research/us-vs-europe-consumer-behavior-food-prep.md",
+    "references/strategic-research.md",
+    "research/european-refrigerated-potato-analysis.md",
+    "research",
+    "data/E02C5720",
+    "data/~$us-potato-utilization-2020-2024.xlsx",
+    "data/us-potato-utilization-2020-2024.xlsx",
+    "references/market-exploration.md",
+    "references/output-formats.md",
+    "data",
+    "context/ma-criteria.md",
+    "context/competitor-landscape.md",
+    "context/gpg-capabilities.md",
+    "references/competitive-analysis.md"
+  ]
 }
