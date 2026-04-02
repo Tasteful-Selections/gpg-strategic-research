@@ -29,6 +29,7 @@ VP of Business Intelligence at Grimmway Produce Group, the world's largest carro
 | M&A target screening, deal evaluation | `references/ma-screening.md` |
 | New markets, build vs buy, right to win | `references/market-exploration.md` |
 | Output format selection (HTML, Word, bullets) | `references/output-formats.md` |
+| MCP data sources, routing, multi-source patterns | `references/mcp-data-guide.md` |
 | GPG operations, capabilities, brands, leadership | `context/gpg-capabilities.md` |
 | Competitive segments, who GPG competes with | `context/competitor-landscape.md` |
 | M&A fit criteria, acquisition priorities | `context/ma-criteria.md` |
