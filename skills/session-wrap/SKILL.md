@@ -55,6 +55,8 @@ Close a work session by writing a structured digest, updating all memory files, 
 
 12. **Final confirmation** — "Session wrapped. Digest written, memory updated, {N} files committed and pushed."
 
+13. **Compound nudge** — if the session involved a deliverable (research report, strategic analysis, market assessment), append: "This session had deliverables worth compounding. Say `compound` to extract learnings." Skip the nudge for sessions that were only planning, quick fixes, or conversation.
+
 ## Digest Output Format
 
 ```yaml

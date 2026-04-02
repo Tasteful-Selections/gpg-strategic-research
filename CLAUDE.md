@@ -40,6 +40,7 @@ Skills auto-trigger based on their descriptions:
 - `session-sync` — Mid-session checkpoint: commit and push (`/sync`)
 - `session-wrap` — Close a session: digest, commit, push (`/wrap` — supersedes session-digest)
 - `session-digest` — *(Superseded by session-wrap. Kept as template.)*
+- `compound-learning` — Extract patterns, templates, preferences after deliverables (`compound`)
 
 ## File Metadata
 
