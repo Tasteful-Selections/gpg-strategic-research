@@ -1,24 +1,22 @@
 ---
 title: "Working State"
 type: memory
-updated: 2026-03-23
+updated: 2026-04-02
 categories:
   - session-state
   - working-memory
 tags:
-  - active-work
-  - european-potato
-  - value-added
-  - chilled-potato
-  - cfo-analysis
-  - risk-assessment
+  - GroundTruth
+  - market-brief
+  - nielsen
+  - two-tier-architecture
 status: active
 scope: gpg-strategic-research
 related:
-  - context/competitor-landscape.md
-  - context/gpg-capabilities.md
-  - research/european-refrigerated-potato-analysis.md
-summary: "Added CFO-lens risk sections to European refrigerated potato analysis. Three new sections: transferability risks, investment reality, and path analysis. Reframed Size of the Prize as illustrative math with full cost caveats."
+  - research/gpg-groundtruth-initiative.md
+  - research/groundtruth-market-brief-carrots-q1-2026.md
+  - memory/open-threads.md
+summary: "GPG GroundTruth initiative launched. Strategic plan, prototype Market Brief (V3), Nielsen contract analysis, and two-tier data architecture complete. Next: Ross alignment, buyer validation, potato brief, Circana contract review."
 ---
 
 # Working State
@@ -27,24 +25,28 @@ summary: "Added CFO-lens risk sections to European refrigerated potato analysis.
 
 ## Currently Working On
 
-European value-added/refrigerated potato analysis — second pass adding critical risk assessment sections requested by Jon. Framing through CFO lens: what would make a CFO skeptical of this proposition.
+GPG GroundTruth initiative — transforming BI from internal support to competitive sales advantage. Initiative plan and first prototype deliverable (Carrot Market Brief V3) are complete.
 
 ## Where We Left Off
 
-Completed addition of three new sections (12-14) to european-refrigerated-potato-analysis.md:
-- Section 12: Transferability Risks (consumer behavior gap, product-type mismatch, shelf life/distribution trap)
-- Section 13: Investment Reality and Competitive Response (CapEx estimates, operating costs, go-to-market costs, competitive response scenarios, CelaVita synthesis)
-- Section 14: Path Analysis — CFO Lens (three paths: co-pack pilot, retrofit, greenfield; kill criteria framework)
+Session produced two major documents:
+1. `research/gpg-groundtruth-initiative.md` — Full strategic plan: naming, 10-product portfolio, 3-year roadmap, team alignment, data governance (two-tier architecture), Nielsen contract analysis, competitive benchmarking, risks, next steps
+2. `research/groundtruth-market-brief-carrots-q1-2026.md` — V3 prototype Market Brief. Went through 3 iterations: V1 (too analytical, gave buyers pricing ammunition), V2 (too much of a sales pitch), V3 (balanced recurring category update with full mix, weather, consumer spotlight, actionable context)
 
-Also rewrote Section 11 to be more balanced — reframed "Size of the Prize" as "By-Product Economics — Illustrative Only" with full cost context below the revenue scenarios. Updated Section 15 (renumbered from 12) with new US feasibility data gaps.
-
-Supporting research files created by subagents:
-- research/us-vs-europe-consumer-behavior-food-prep.md
-- research/us-refrigerated-barriers-to-entry.md
-- research/us-refrigerated-potato-competitive-dynamics.md
+Key architecture decision: two-tier data model based on Nielsen contract Section 4(vi) and Data Warehouse Section 2(f) GenAI restrictions. Tier 1 (Claude/open) for public + internal data. Tier 2 (Fabric + authorized GenAI) for Nielsen/Circana. Portal limited to Tier 1 data; competitive intelligence in human-delivered products only.
 
 ## Active Decisions Pending
 
-- Whether to add European potato competitors to competitor-landscape.md as a new segment
-- Whether to create a dedicated context file for European value-added potato market
-- Jon may want to refine or adjust tone/framing of the new sections before sharing with Brian's team
+- **Ross alignment on GroundTruth name and positioning** — show him the plan and V3 brief
+- **Year 1 framing** — sales team enablement vs. buyer-facing from the start (Ross's call)
+- **Nielsen GenAI Limited Authorization Exhibit** — Jon needs to request it from Mona Teffeteller / NIQ account team
+- **Circana contract review** — parallel GenAI analysis needed
+- **Buyer validation** — test V3 format with 2-3 friendly buyers via Ross/sales team
+
+## Key Facts for Next Session
+
+- Nielsen contract is signed (RPE LLC, Feb 2026, through Dec 2028). Tom Wopperer is invoice contact. Mona Teffeteller is NIQ contact. Data is live since Mar 2026.
+- Fabric confirmed for Q3 2026.
+- Karen White alignment deprioritized — Tim (her boss) is the escalation path.
+- Jon is 60-80% of carrot market share — do NOT include data that highlights GPG pricing power in buyer-facing materials.
+- Market Brief lesson: needs full product mix (baby, organic, whole, bulk), short-term dynamics, weather/growing conditions, and actionable context. Not just a sales pitch or market report.
