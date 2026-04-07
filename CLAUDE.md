@@ -70,13 +70,11 @@ Memory files are more current than context files. Do not create memory files spe
 
 ## Session Start Sequence
 
-0. **Check git state** — Run `git status` and `git log --oneline -1 origin/main..HEAD`. If there are uncommitted changes or unpushed commits, tell Jon: "You have unsynced changes. Run `/start` to sync before we begin." If everything is clean, proceed to Step 1. If Jon invoked `/start`, skip this step — `/start` handles git state internally.
+0. **Check git state** — Run `git status`. If unsynced, tell Jon: "You have unsynced changes. Run `/start` to sync before we begin." If clean, proceed. Skip if Jon ran `/start`.
 
-1. Read `memory/working-state.md` — resume active work if present
-2. Scan frontmatter of `memory/` — load files matching current task
-3. Follow "related" links from loaded memory files (one hop)
-4. Check `memory/open-threads.md` for relevant pending items
-5. Proceed with user's request
+1. Read `memory/working-state.md` — current topic
+2. **Ask:** "Last working on: [topic]. What are we researching today?"
+3. Load context on demand after Jon responds — pull open-threads and relevant learnings only when relevant to the stated task.
 
 ## Guardrails
 

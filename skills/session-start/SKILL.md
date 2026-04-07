@@ -46,9 +46,9 @@ Open a work session by syncing the local repo with remote and loading session co
    - Read `memory/working-state.md`
    - Scan frontmatter of `memory/` for files matching current task
    - Follow "related" links (one hop)
-   - Check `memory/open-threads.md`
-   - Scan `memory/learnings/` for learnings relevant to the current task — surface any applicable patterns
-   - Proceed with Jon's request
+   - Read `memory/working-state.md` — current topic
+   - **Ask:** "Git synced. Last working on: [topic]. What are we researching today?"
+   - Load additional context **only after responding**: open-threads, relevant learnings — on demand, not upfront.
 
 6. **Report ready state** — brief status to Jon.
 
