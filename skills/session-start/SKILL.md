@@ -47,6 +47,7 @@ Open a work session by syncing the local repo with remote and loading session co
    - Scan frontmatter of `memory/` for files matching current task
    - Follow "related" links (one hop)
    - Check `memory/open-threads.md`
+   - Scan `memory/learnings/` for learnings relevant to the current task — surface any applicable patterns
    - Proceed with Jon's request
 
 6. **Report ready state** — brief status to Jon.

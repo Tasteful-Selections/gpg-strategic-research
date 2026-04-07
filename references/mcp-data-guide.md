@@ -34,6 +34,8 @@ Ask yourself: **what kind of question is being asked?**
 |---|---|---|
 | US produce prices (farm/shipping point) | MARS | FRED (CPI/PPI trends) |
 | Produce movement volumes | MARS | USDA NASS (production) |
+| Retail advertised produce prices | MARS | FRED (CPI for broader trends) |
+| Truck freight rates (produce) | MARS | — |
 | US crop production, acreage, yield | USDA NASS | FAO (global comparison) |
 | Global agriculture production/trade | FAO | FAS (US trade specifically) |
 | US agricultural exports/imports | FAS | FAO (partner country context) |
@@ -52,9 +54,9 @@ Ask yourself: **what kind of question is being asked?**
 
 ---
 
-### 1. MARS — USDA Market News (Produce Pricing & Movement)
+### 1. MARS — USDA Market News (Produce Pricing, Movement, Retail & Freight)
 
-**What it covers:** Real-time and recent wholesale produce market data — shipping point (FOB) prices and movement volumes through US channels.
+**What it covers:** Real-time and recent US produce market data across the full supply chain — shipping point (FOB) prices, movement volumes, retail advertised prices from grocery store circulars, and refrigerated truck freight rates by route.
 
 **When to use:**
 - Current or recent commodity pricing (carrots, lettuce, broccoli, etc.)
@@ -62,26 +64,38 @@ Ask yourself: **what kind of question is being asked?**
 - Volume/movement tracking through shipping channels
 - Import vs. domestic origin comparisons
 - Supply/demand signals from wholesale markets
+- Retail price monitoring and organic premium analysis
+- Freight cost trends and truck availability by shipping lane
 
-**Key tools:**
+**Key tools (5):**
 - `get_shipping_point_prices` — FOB prices at farm/packing house level (most upstream price signal)
 - `get_movement_data` — Volume data showing how much moved through wholesale channels
-- `list_commodities` — Find exact commodity names before querying (names must match exactly)
+- `get_retail_ads` — Weekly retail advertised prices from ~270 retailers / 29,000 stores. Includes weighted avg price, prior week/year comparisons, ad counts, organic flag, and regional breakdowns.
+- `get_truck_rates` — Spot-market refrigerated truck rates ($/truckload) from 11 shipping districts to 10 destination cities. Includes truck availability indicator.
+- `list_commodities` — Find exact commodity names before querying (accepts market type: "shippingpt", "movement", "retail", "truck")
 
 **Common patterns:**
 ```
 # Always start with list_commodities to get exact names
 list_commodities("shippingpt")  # for prices
 list_commodities("movement")     # for volumes
+list_commodities("retail")       # for retail ad prices
+list_commodities("truck")        # for truck freight rates
 
 # Then query with exact commodity name
 get_shipping_point_prices(commodity="Carrots", date_from="01/01/2026")
 get_movement_data(commodity="Carrots", date_from="01/01/2026", aggregate="weekly")
+get_retail_ads(commodity="Carrots", region="National")
+get_retail_ads(commodity="Carrots", organic="Yes")  # organic premium analysis
+get_truck_rates(commodity="Carrots", origin="KERN DISTRICT CALIFORNIA")
 ```
 
-**Key fields:** low_price, high_price, mostly_low_price, mostly_high_price, variety, package, location, origin, organic
+**Key fields:**
+- Shipping point: low_price, high_price, mostly_low_price, mostly_high_price, variety, package, location, origin, organic
+- Retail ads: price_min, price_max, current_wtd_avg_price, current_ad_count, priorwk_wtd_avg_price, prioryr_wtd_avg_price, region, variety, organic, unit
+- Truck rates: district (origin), destination_city, low_price, high_price, price_change (%), truck_availability
 
-**GPG relevance:** Direct visibility into carrot and vegetable pricing at shipping point. Core data source for baby carrot commercial analysis, competitive pricing, and seasonal planning.
+**GPG relevance:** Full supply chain visibility for carrots and vegetables — from farm gate pricing (shipping point) through freight costs (truck rates) to retail shelf prices (retail ads). Core data source for baby carrot commercial analysis, competitive pricing, seasonal planning, and freight cost management. Kern District California is a primary truck rate origin for Grimmway shipments.
 
 ---
 
@@ -455,8 +469,10 @@ Complex questions often require combining data from multiple MCPs. Common patter
 
 ### Price Analysis (Farm to Consumer)
 1. **MARS** — Shipping point (FOB) prices (what growers/packers get)
-2. **FRED** — CPI produce indices (what consumers pay)
-3. **BEA** — PCE food spending (total consumer expenditure context)
+2. **MARS** — Truck freight rates (logistics cost between farm and retail)
+3. **MARS** — Retail advertised prices (what consumers see in store ads)
+4. **FRED** — CPI produce indices (broader consumer price trends)
+5. **BEA** — PCE food spending (total consumer expenditure context)
 
 ### Market Sizing
 1. **Census** — Population and demographics by geography
