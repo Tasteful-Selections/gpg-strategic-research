@@ -1,6 +1,6 @@
 ---
 name: session-start
-description: "Open a work session by syncing git state and loading context. Use when Jon says '/start', 'start session', 'open session', 'begin session', 'pick up where I left off', or at the start of any new conversation. Pulls remote changes, detects uncommitted local work, then runs the Session Start Sequence. Do NOT use mid-session for checkpoints (use session-sync) or end-of-session (use session-wrap)."
+description: "Open a work session by syncing git state and loading context. Use when Jon says '/start', 'start session', 'open session', 'begin session', 'pick up where I left off', or at the start of any new conversation. Pulls remote changes, detects uncommitted local work, then runs the Session Start Sequence."
 categories:
   - session-lifecycle
   - git-transport

@@ -1,6 +1,6 @@
 ---
 name: session-sync
-description: "Mid-session checkpoint that saves all progress to git. Use when Jon says '/sync', 'save progress', 'checkpoint', 'push my changes', 'commit everything', or after completing a meaningful unit of work. Stages all changes, commits with auto-generated message, and pushes. Do NOT use at end of session (use session-wrap) or start of session (use session-start). Do NOT use for 'sync my calendar' or other non-git sync requests."
+description: "Mid-session checkpoint that saves all progress to git. Use when Jon says '/sync', 'save progress', 'checkpoint', 'push my changes', 'commit everything', or after completing a meaningful unit of work. Stages all changes, commits with auto-generated message, and pushes."
 categories:
   - session-lifecycle
   - git-transport

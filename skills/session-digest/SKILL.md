@@ -1,6 +1,6 @@
 ---
 name: session-digest
-description: "Write a structured session digest capturing decisions, discoveries, and next steps before ending a work session. Use when Jon says 'wrap up', 'end of session', 'write a digest', 'session summary', 'what did we do today', 'log', 'log this', 'save progress', 'capture what we did', or before signing off. Do NOT use for mid-session status updates (update working-state.md directly) or writing reports about past work."
+description: "Write a structured session digest capturing decisions, discoveries, and next steps before ending a work session. Use when Jon says 'wrap up', 'end of session', 'write a digest', 'session summary', 'what did we do today', 'log', 'log this', 'save progress', 'capture what we did', or before signing off."
 categories:
   - memory-management
   - session-continuity

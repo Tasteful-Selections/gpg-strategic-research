@@ -1,14 +1,12 @@
 ---
 name: compound-learning
 description: >
-  Extract reusable patterns, templates, preferences, and failure modes after
-  completing deliverables. Use when the user says "compound this", "what did we learn",
-  "that worked well", "save that pattern", "remember this for next time",
-  "what patterns are we seeing", or after completing any research report, strategic
-  analysis, market assessment, or literature review. Also triggers when the user
-  notes an outcome — "leadership used that finding", "that landed well", "that
-  didn't work". Do NOT use for recording session summaries (use session-wrap).
-  Do NOT use for casual conversation or quick factual answers.
+  Extract reusable patterns, templates, preferences, and failure modes after completing
+  deliverables. Use when the user says "compound this", "what did we learn", "that worked well",
+  "save that pattern", "remember this for next time", "what patterns are we seeing", or after
+  completing any research report, strategic analysis, market assessment, or literature review. Also
+  triggers when the user notes an outcome — "leadership used that finding", "that landed well",
+  "that didn't work".
 categories:
   - quality
   - learning

@@ -1,6 +1,6 @@
 ---
 name: session-wrap
-description: "Close a work session: write digest, update memory, commit everything, push. Use when Jon says '/wrap', 'wrap up', 'end of session', 'done for today', 'write a digest', 'session summary', 'log this session', 'save progress and close', 'sign off', or before ending a conversation. Generates session digest, updates working-state and open-threads, stages all changes, commits, and pushes. Supersedes session-digest. Do NOT use for mid-session checkpoints (use session-sync) or session start (use session-start)."
+description: "Close a work session: write digest, update memory, commit everything, push. Use when Jon says '/wrap', 'wrap up', 'end of session', 'done for today', 'write a digest', 'session summary', 'log this session', 'save progress and close', 'sign off', or before ending a conversation. Generates session digest, updates working-state and open-threads, stages all changes, commits, and pushes. Supersedes session-digest."
 categories:
   - session-lifecycle
   - git-transport
