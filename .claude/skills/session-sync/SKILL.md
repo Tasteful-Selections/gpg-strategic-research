@@ -40,17 +40,17 @@ Mid-session checkpoint that commits and pushes all changes to remote.
 
 3. **Detect recent sync** — `git log --oneline -1`. If the last commit is a `sync:` or `wrap:` commit from within the last 5 minutes, ask: "You just synced {N} minutes ago. Sync again?" Prevents accidental double-commits.
 
-3. **Quick-update working-state** — check if `memory/working-state.md` reflects current work. If the "Currently Working On" section is stale (doesn't match what was actually done this session), update it before committing.
+4. **Quick-update working-state** — check if `memory/working-state.md` reflects current work. If the "Currently Working On" section is stale (doesn't match what was actually done this session), update it before committing.
 
-4. **Stage everything** — `git add -A`
+5. **Stage everything** — `git add -A`
 
-5. **Generate commit message** — `sync: checkpoint — {first 60 chars of "Currently Working On" from working-state.md}`
+6. **Generate commit message** — `sync: checkpoint — {first 60 chars of "Currently Working On" from working-state.md}`
 
-6. **Commit** — `git commit -m "{message}"`
+7. **Commit** — `git commit -m "{message}"`
 
-7. **Push** — `git push`
+8. **Push** — `git push`
 
-8. **Confirm** — "Synced. {N} files committed and pushed."
+9. **Confirm** — "Synced. {N} files committed and pushed."
 
 ## Common Pitfalls
 
