@@ -33,29 +33,37 @@ Close a work session by writing a structured digest, updating all memory files, 
 
 2. **Read working-state.md** — understand what changed relative to the start of the session.
 
-3. **Write the digest** — create `memory/digests/YYYY-MM-DD.md`. If a digest already exists for today, use suffix: `YYYY-MM-DD-2.md`, `YYYY-MM-DD-3.md`, etc. If Obsidian CLI is available, use `obsidian vault="gpg-strategic-research" create name="YYYY-MM-DD" template="template-session-digest"` for auto-populated frontmatter.
+3. **Run compound-learning if session markers fire** — auto-invoke the compound-learning skill when ANY of these markers are present in the session:
+   - File edits or new files under `.claude/skills/`, `references/`, or `CLAUDE.md` (orchestration changes)
+   - More than 5 files changed total this session (multi-file deliverable signal)
+   - Explicit user phrases mid-session: "save that", "compound this", "what did we learn", "that worked well", "that landed well"
+   - Persona build, audit, or major architecture decision
 
-4. **Overwrite working-state.md** — replace entirely with current state: what's in progress, where we left off, active decisions pending. This is ephemeral — do not append.
+   Skip the auto-call when ALL markers are absent — the session was conversation, planning, or a quick single-file fix only. Also skip when the user says "skip compound", "no compound", or "just wrap" at the start of the wrap flow.
 
-5. **Update open-threads.md** — add new threads discovered mid-session, update existing threads with progress, move completed items to the Completed table, move abandoned items to the Dropped table with a reason.
+   Compound's propose-approve gate runs as normal: user sees each proposal with budget line, approves/edits/redirects/skips. Resulting file edits become part of the wrap commit. Audit log entries land in `memory/users/{username}/learnings/_log.md` before the digest is written.
 
-6. **Confirm memory writes with Jon** — show a brief summary of what was written and where. Let Jon correct anything before committing.
+4. **Write the digest** — create `memory/digests/YYYY-MM-DD.md`. If a digest already exists for today, use suffix: `YYYY-MM-DD-2.md`, `YYYY-MM-DD-3.md`, etc. If Obsidian CLI is available, use `obsidian vault="gpg-strategic-research" create name="YYYY-MM-DD" template="template-session-digest"` for auto-populated frontmatter.
+
+5. **Overwrite working-state.md** — replace entirely with current state: what's in progress, where we left off, active decisions pending. This is ephemeral — do not append.
+
+6. **Update open-threads.md** — add new threads discovered mid-session, update existing threads with progress, move completed items to the Completed table, move abandoned items to the Dropped table with a reason.
+
+7. **Confirm memory writes with Jon** — show a brief summary of what was written and where. Let Jon correct anything before committing.
 
 ### Git Phase
 
-7. **Detect recent sync** — if the last commit is a `sync:` commit from this session, note that only wrap-specific changes are in this commit.
+8. **Detect recent sync** — if the last commit is a `sync:` commit from this session, note that only wrap-specific changes are in this commit.
 
-8. **Stage everything** — `git add -A`
+9. **Stage everything** — `git add -A`
 
-9. **Generate commit message** — `wrap: session end — {digest summary sentence}`
+10. **Generate commit message** — `wrap: session end — {digest summary sentence}`
 
-10. **Commit** — `git commit -m "{message}"`
+11. **Commit** — `git commit -m "{message}"`
 
-11. **Push** — `git push`
+12. **Push** — `git push`
 
-12. **Final confirmation** — "Session wrapped. Digest written, memory updated, {N} files committed and pushed."
-
-13. **Compound nudge** — if the session involved a deliverable (research report, strategic analysis, market assessment), append: "This session had deliverables worth compounding. Say `compound` to extract learnings." Skip the nudge for sessions that were only planning, quick fixes, or conversation.
+13. **Final confirmation** — "Session wrapped. Digest written, memory updated, {N} files committed and pushed."
 
 ## Digest Output Format
 
