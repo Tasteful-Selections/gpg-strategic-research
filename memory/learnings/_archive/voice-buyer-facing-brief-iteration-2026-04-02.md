@@ -11,7 +11,7 @@ tags:
   - preference
   - market-brief
   - GroundTruth
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "Buyer-facing GroundTruth deliverables need a balanced tone: not a market analyst report (gives buyers ammo), not a sales pitch (too one-directional for recurring distribution), but a trusted category update the buyer looks forward to receiving."

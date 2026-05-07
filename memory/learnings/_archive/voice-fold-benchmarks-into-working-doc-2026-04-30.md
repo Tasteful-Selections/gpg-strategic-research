@@ -11,7 +11,7 @@ tags:
   - working-doc
   - benchmarking
   - consolidation
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "Jon prefers external research and benchmarking layers consolidated INTO the existing working doc as new sections + surgical insertions to existing sections — not delivered as separate companion files."

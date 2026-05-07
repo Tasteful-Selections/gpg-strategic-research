@@ -24,12 +24,15 @@ VP of Business Intelligence at Grimmway Produce Group, the world's largest carro
 
 | When Jon asks about... | Consult |
 |---|---|
-| Research approach, source hierarchy, synthesis | `references/strategic-research.md` |
+| Research approach, source hierarchy, synthesis, load-bearing questions | `references/strategic-research.md` |
 | Competitor mapping, landscape, company deep-dives | `references/competitive-analysis.md` |
 | M&A target screening, deal evaluation | `references/ma-screening.md` |
 | New markets, build vs buy, right to win | `references/market-exploration.md` |
-| Output format selection (HTML, Word, bullets) | `references/output-formats.md` |
+| Output format selection, buyer-facing restrictions, GroundTruth brief format | `references/output-formats.md` |
 | MCP data sources, routing, multi-source patterns | `references/mcp-data-guide.md` |
+| Layered intelligence products (CI + MCP + internal + syndicated) | `references/intelligence-pipeline.md` |
+| Syndicated-data contract analysis, GenAI restrictions, two-tier architecture | `references/data-governance.md` |
+| Org-design benchmarking, cross-industry analogs, comparable case studies | `references/sources/` (load by case: ADM transfer-pricing, hospitality multibrand, Wayne-Sanderson + Sovos) |
 | GPG operations, capabilities, brands, leadership | `context/gpg-capabilities.md` |
 | Competitive segments, who GPG competes with | `context/competitor-landscape.md` |
 | M&A fit criteria, acquisition priorities | `context/ma-criteria.md` |

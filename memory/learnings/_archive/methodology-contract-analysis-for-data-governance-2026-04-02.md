@@ -11,7 +11,7 @@ tags:
   - data-governance
   - genai
   - contracts
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "Nielsen (and likely Circana) contracts contain specific GenAI restrictions that shape the entire data architecture. The restriction isn't a dead end — it's a gatekeeping mechanism with a built-in authorization path. Always read the exact contract language before designing AI pipelines involving syndicated data."

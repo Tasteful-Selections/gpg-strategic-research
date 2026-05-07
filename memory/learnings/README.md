@@ -1,55 +1,63 @@
 ---
-title: "Learnings — Migration Pending"
+title: "Learnings — Migration Notice"
 type: index
-updated: 2026-05-06
+updated: 2026-05-07
 categories:
   - learning
   - index
 tags:
+  - manifest
+  - learnings
   - migration
-  - legacy
-status: stale
+status: active
 scope: gpg-strategic-research
-summary: "MIGRATION PENDING: This directory uses the legacy compound-learning model where patterns were written to memory instead of the orchestration layer. Next session in this persona should trigger migration. See compound-learning-redesign-plan.md in persona-creator for the full plan and gpg-bi-strategy as the migration template."
+summary: "Migration notice: the legacy chronological per-insight pattern was superseded by the disposition model on 2026-05-07. Active learnings now live in the orchestration layer (skills, references, CLAUDE.md). The audit log lives at memory/users/jon/learnings/_log.md. Legacy files archived in _archive/."
 ---
 
-# MIGRATION PENDING — Compound-Learning Redesign
+# Learnings — Migration Notice
 
-**Status as of 2026-05-06:** This directory holds 9 legacy chronological per-insight learning files. They have NOT been migrated to the new disposition-first compound-learning model.
+**As of 2026-05-07, this directory no longer holds active learning files.**
 
-## Why this is flagged
+The compound-learning skill was rewritten to promote learnings into the **orchestration layer** (skills, references, CLAUDE.md) instead of memory. Memory was the wrong substrate — files here didn't reliably get scanned mid-task, so learnings sat unused and behavior never improved.
 
-The compound-learning skill was rewritten 2026-05-06 (see `C:\repos\persona-creator\.claude\skills\compound-learning\SKILL.md`). The new model promotes learnings into the **orchestration layer** (skills, references, CLAUDE.md) instead of memory. Memory was the wrong substrate — files here didn't reliably get scanned mid-task, so learnings sat unused and behavior never improved.
+## Where to Find Things Now
 
-The full diagnosis and redesign plan are in `C:\repos\persona-creator\compound-learning-redesign-plan.md`.
+| Type of learning | New home |
+|---|---|
+| Buyer-facing pricing data restrictions, GroundTruth V3 brief format, fold-into-working-doc preference | `references/output-formats.md` |
+| Load-bearing question pattern (post-synthesis check) | `references/strategic-research.md` (Step 6) |
+| Layered intelligence pipeline (CI + MCP + internal + syndicated) | `references/intelligence-pipeline.md` |
+| Syndicated-data contract analysis, GenAI restrictions, two-tier architecture | `references/data-governance.md` |
+| ADM transfer-pricing scandal (canonical cautionary tale) | `references/sources/adm-transfer-pricing-scandal.md` |
+| Hospitality as canonical multi-brand-at-buyer analog | `references/sources/hospitality-multibrand-buyer.md` |
+| Wayne-Sanderson + Sovos as canonical PE-backed rollup benchmarks | `references/sources/wayne-sanderson-sovos-benchmarks.md` |
+| Audit trail of what was promoted where | `memory/users/jon/learnings/_log.md` |
 
-## Next steps
+## What's in `_archive/`
 
-When this persona is next worked on:
-1. Read `C:\repos\persona-creator\.claude\skills\compound-learning\SKILL.md` and `C:\repos\persona-creator\.claude\skills\compound-learning\references\learning-schema.md`
-2. Look at `C:\Repos\gpg-bi-strategy\` as the migration template (its commit `c5b175c` shows the full migration of 51 patterns)
-3. Walk each legacy learning file through the disposition decision questions
-4. Apply edits to the right home (skill / reference / CLAUDE.md / memory entry)
-5. Build `memory/users/{username}/learnings/_log.md` with one line per applied disposition
-6. Archive the original files to `memory/learnings/_archive/` with `status: archived`
-7. Replace this README with the post-migration version
+The 9 legacy chronological per-insight files migrated on 2026-05-07. All preserved with `status: archived` for traceability:
 
-## What's currently in this directory
+- `market-gpg-dominant-share-caution-2026-04-02.md`
+- `methodology-ci-mcp-pipeline-for-deliverables-2026-04-02.md`
+- `methodology-contract-analysis-for-data-governance-2026-04-02.md`
+- `methodology-load-bearing-question-2026-04-30.md`
+- `source-adm-transfer-pricing-scandal-2026-04-30.md`
+- `source-hospitality-multibrand-buyer-2026-04-30.md`
+- `source-wayne-sanderson-sovos-canonical-benchmarks-2026-04-30.md`
+- `voice-buyer-facing-brief-iteration-2026-04-02.md`
+- `voice-fold-benchmarks-into-working-doc-2026-04-30.md`
 
-9 chronological per-insight files using `{topic-prefix}-{slug}-{YYYY-MM-DD}.md` naming. Date range: 2026-04-02 through 2026-04-30 (two distinct write batches). Grouped by topic prefix:
+## Workflow Going Forward
 
-- **market** (1): gpg-dominant-share-caution (2026-04-02)
-- **methodology** (3): ci-mcp-pipeline-for-deliverables (2026-04-02), contract-analysis-for-data-governance (2026-04-02), load-bearing-question (2026-04-30)
-- **source** (3): adm-transfer-pricing-scandal (2026-04-30), hospitality-multibrand-buyer (2026-04-30), wayne-sanderson-sovos-canonical-benchmarks (2026-04-30)
-- **voice** (2): buyer-facing-brief-iteration (2026-04-02), fold-benchmarks-into-working-doc (2026-04-30)
+When the compound-learning skill captures a new pattern:
 
-Smallest of the four backlogs. Note the `source-*` files are likely a distinct disposition class (canonical benchmark sources / case studies) that may belong in a `references/sources/` directory rather than skill files.
+1. The skill walks the **disposition decision questions** (`.claude/skills/compound-learning/references/learning-schema.md`)
+2. The pattern lands in its right home (skill, reference, CLAUDE.md, or memory)
+3. A line is appended to `memory/users/jon/learnings/_log.md` recording the disposition
 
-## Why we're not migrating now
+This directory (`memory/learnings/`) does not get new active files. It exists only to preserve the archive.
 
-The migration was started autonomously on 2026-05-06 with gpg-bi-strategy as the test case (51 patterns). The remaining personas (this one + 2 others) are flagged for migration in their next active session because:
-- Each persona has its own architecture (skills, references, CLAUDE.md routing) that requires persona-specific disposition decisions
-- Doing all 4 migrations autonomously in one session risks misclassifying patterns into the wrong target files
-- The gpg-bi-strategy migration is the calibration baseline — apply that pattern with persona-specific judgment
+## See Also
 
-This is intentional — better to migrate each persona deliberately when actively working in it than to batch-process all four with weakening judgment per persona.
+- `.claude/skills/compound-learning/SKILL.md` (in persona-creator) — the rewritten workflow
+- `.claude/skills/compound-learning/references/learning-schema.md` (in persona-creator) — disposition decision questions, budget gate, redirect table

@@ -16,7 +16,7 @@ tags:
   - risa-cretella
   - ccso-pattern
   - integrated-sales-federated-brands
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "Wayne-Sanderson Farms (April 2026 CCSO appointment) and Sovos Brands (2021 S-1) are the two highest-leverage benchmarks for any GPG research on commercial org design, integration sequencing, or PE-backed multi-entity rollup architecture."

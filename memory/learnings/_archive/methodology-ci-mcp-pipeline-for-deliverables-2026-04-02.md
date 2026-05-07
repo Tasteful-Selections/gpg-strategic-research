@@ -11,7 +11,7 @@ tags:
   - competitive-intelligence
   - mcp
   - GroundTruth
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "The CI persona's weekly signals provide narrative context while MCP public data provides quantitative proof. Together they produce buyer-useful intelligence before any internal or syndicated data is connected. Each data layer added later makes the preceding layers more valuable."

@@ -467,6 +467,8 @@ list_insights(type=["daily_briefing"], created_after="2026-04-02T00:00:00Z", inc
 
 Complex questions often require combining data from multiple MCPs. Common patterns:
 
+> For layered intelligence products (GroundTruth briefs, recurring category deliverables that combine CI signals + MCP + internal + syndicated data), see `references/intelligence-pipeline.md`. For syndicated-data contract restrictions that shape architecture, see `references/data-governance.md`.
+
 ### Price Analysis (Farm to Consumer)
 1. **MARS** — Shipping point (FOB) prices (what growers/packers get)
 2. **MARS** — Truck freight rates (logistics cost between farm and retail)

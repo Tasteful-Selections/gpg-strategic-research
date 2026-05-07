@@ -69,6 +69,30 @@ Always end with: what does this mean for GPG specifically? Connect findings back
 
 Every analysis has gaps. Name them explicitly. "I couldn't find reliable data on X. To answer this fully, you'd need [internal sales data / IRI access / a conversation with your category team]."
 
+### Step 6: Ask Load-Bearing Questions Before Final Delivery
+
+After delivering a benchmarking synthesis or research with structural recommendations, **ask Jon about load-bearing assumptions specifically** — not open-ended "what should I check" or "any feedback." Load-bearing assumptions are the small number of facts where being wrong invalidates a recommendation.
+
+**The framing that works:** "Questions where my placeholder guess is doing structural load-bearing work." For each, one sentence: "If [my placeholder guess] is wrong, then [recommendation] needs to change because [structural dependency]."
+
+**Format the response:**
+- Number the questions (Q1-QN, max 7-8) so Jon can answer "1: Yes; 2: No; 3: under X"
+- One sentence per question on what would change if the guess is wrong
+- Group "questions I'm NOT asking" at the end with rationale (signals discipline; reassures Jon you're not just dumping research curiosities)
+
+**When to apply:**
+- After any benchmarking synthesis that produces recommendations to be acted on
+- After M&A target screening or strategic analysis where conclusions depend on inferred real-world facts
+- Anytime considering "should I deliver this or check first?"
+
+**Don't apply when:**
+- The deliverable is informational only (no recommendations to act on)
+- Jon has explicitly said "just deliver, don't check"
+- You have direct access to ground truth (e.g., reading internal docs)
+- The synthesis is preliminary scoping, not actionable recommendations
+
+Validated Apr 30 — three of seven load-bearing questions materially changed recommendations that would otherwise have shipped wrong.
+
 ## Common Pitfalls
 
 - **Researching before framing.** The biggest waste of time. Spend 2 minutes framing to save 20 minutes researching the wrong angle.

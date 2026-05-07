@@ -14,7 +14,7 @@ tags:
   - multi-brand
   - total-account-management
   - benchmarking
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "For multi-brand-at-one-buyer structural questions, hospitality is a closer cross-industry analog than beverages — only hospitality has a single corporate buyer purchasing across 25-30 brands from one company."

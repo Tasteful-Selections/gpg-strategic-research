@@ -10,7 +10,7 @@ tags:
   - carrots
   - pricing
   - buyer-facing
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "GPG controls 60-80% of US carrot supply. Any data showing large price increases in buyer-facing materials tells the buyer GPG drove those increases. Strip all grower pricing trends, FOB tables, and YoY price escalation data from external deliverables."

@@ -12,7 +12,7 @@ tags:
   - user-checkin
   - assumptions
   - recommendations
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "After delivering a benchmarking synthesis with recommendations, ask the user about load-bearing assumptions specifically — questions where placeholder guesses do structural work — rather than open-ended 'what should I check' questions."

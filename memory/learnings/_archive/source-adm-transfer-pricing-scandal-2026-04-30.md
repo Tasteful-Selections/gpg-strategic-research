@@ -15,7 +15,7 @@ tags:
   - merchant-allocation-hybrid
   - rpe
   - intersegment-pricing
-status: active
+status: archived
 scope: gpg-strategic-research
 confidence: high
 summary: "ADM's January 2024 SEC settlement on intersegment transfer pricing ($40M settlement, $228M profit restatement) is the direct cautionary tale for the RPE merchant book ↔ Tasteful owned-supply interface and any future GPG research on merchant/allocation hybrid governance."

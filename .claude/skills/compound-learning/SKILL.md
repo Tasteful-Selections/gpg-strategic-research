@@ -1,12 +1,12 @@
 ---
 name: compound-learning
 description: >
-  Extract reusable patterns, templates, preferences, and failure modes after completing
-  deliverables. Use when the user says "compound this", "what did we learn", "that worked well",
-  "save that pattern", "remember this for next time", "what patterns are we seeing", or after
-  completing any research report, strategic analysis, market assessment, or literature review. Also
-  triggers when the user notes an outcome — "leadership used that finding", "that landed well",
-  "that didn't work".
+  Promote learnings into the orchestration layer — skills, references, CLAUDE.md — so
+  behavior actually changes. Memory is a fallback for user/stakeholder-specific facts that
+  don't generalize. Use when Jon says "compound this", "what did we learn", "that worked
+  well", "save that pattern", "remember this for next time", or after completing any persona
+  build, audit, skill file, strategy recommendation, or reference document. Also triggers
+  when Jon notes an outcome — "Ross changed X", "that landed well", "that didn't work".
 categories:
   - quality
   - learning
@@ -17,143 +17,144 @@ tags:
   - templates
   - preferences
   - failures
-summary: "Semi-autonomous learning extraction after deliverables. Claude proposes what was learned, user approves. Writes granular learning files to memory/learnings/."
+  - orchestration
+summary: "Disposition-first learning capture. Each learning is routed to a skill update, reference update, CLAUDE.md edit, or memory entry — defaulting to orchestration so behavior changes. Audit log in memory/learnings/_log.md."
 ---
 
 # Compound Learning
 
-After completing a deliverable, extract reusable patterns, templates, preferences, and failure modes — then store them so the next similar task starts from accumulated knowledge rather than scratch. The system gets smarter with each cycle.
+After completing a deliverable, identify what was learned — then **promote the learning into the orchestration layer** so the next session benefits automatically. Memory is a fallback, not the default.
 
-This is semi-autonomous: Claude proposes what was learned, the user approves or edits, and the learning persists. Claude does NOT write directly to reference files or context files — learnings stay in their own directory until the user promotes them.
+This is semi-autonomous: Claude proposes the learning AND its target file with a concrete diff. The user approves, edits, or rejects. Only on approval does Claude make the file change. The propose-then-approve gate is preserved; the leverage point shifts from "what frontmatter to give the memory file" to "where in orchestration this learning lands."
+
+## Why Disposition-First
+
+Memory doesn't reliably get scanned mid-task — a learning there sits hoping Claude finds it. A learning in a SKILL.md changes behavior next session, automatically. That's the difference between accumulating and compounding. Full rationale in `references/architecture-guide.md` → "Memory vs. Orchestration."
 
 ## When to Use
 
-**Explicit triggers:**
-- "compound this", "what did we learn", "save that pattern", "remember this for next time"
-- "that worked well", "that didn't work", "leadership used that finding"
-- "what patterns are we seeing" (synthesis across accumulated learnings)
+**Explicit triggers:** "compound this", "what did we learn", "save that pattern", "that worked well/didn't work", "Ross changed X", "[stakeholder] pushed back on Y", "what patterns are we seeing".
 
-**Implicit triggers (offer, don't force):**
-- After completing a research report or strategic analysis — offer: "Want me to compound what we learned?"
-- After the user notes a significant outcome
-- After a deliverable goes through revision
+**Implicit triggers (offer, don't force):** after a persona build / audit / skill file, after a significant outcome, after a deliverable goes through revision (the delta IS the learning).
 
-**Do NOT trigger:**
-- Session digests and working-state updates (session-wrap handles those)
-- Quick factual exchanges under ~100 words
-- When the user says "skip" or "just move on"
+**Do NOT trigger:** session digests (session-wrap handles), decision logging (decision-journal handles), exchanges under ~100 words, or when the user says "skip".
 
-## Stakes Classification
+## Stakes Classification (gate before disposition)
 
-| Stakes | Examples | Treatment |
-|---|---|---|
-| **Low** | Quick lookups, minor source checks | Skip unless explicitly asked |
-| **Medium** | Single research summary, routine analysis | Quick compound — one learning file |
-| **High** | Multi-source strategic assessment, market deep-dive, methodology refinement | Full compound with detailed extraction |
+- **Low** — quick answers, casual conversation, minor edits → skip unless explicitly asked
+- **Medium** (default) — single skill/context update, routine audit dimension → run full workflow on one learning
+- **High** — full persona build, complex audit, multi-file architecture decision → run full workflow on each distinct learning; may produce multiple file edits
+
+If a session produced no novel learning, say so and stop. Capturing nothing is a valid outcome.
 
 ## Workflow
 
-### Step 1: Identify the Learning Moment
+### Phase 1 — Identify the Learning Moment
 
-1. **Success pattern** — a research methodology, source, or framing that produced high-value findings
-2. **Failure/revision** — a source that was unreliable, an analysis angle that missed the mark
-3. **Preference discovery** — how the user wants findings structured, what level of detail leadership needs
-4. **Template extraction** — a report structure or analysis framework worth reusing
+Sources: success pattern, failure/revision (the delta IS the lesson), preference discovery, template extraction.
 
-### Step 2: Extract the Learning
+### Phase 2 — Extract the Learning
 
-For each learning, formulate:
-- **One-sentence takeaway**
-- **Context** — what task produced this learning
-- **The insight** — specific enough to act on
-- **When to apply** — future situations
-- **Confidence** — High / Medium / Low
+For each: one-sentence takeaway, context, the insight, when to apply, confidence (High/Medium/Low). Push for specificity — pass the quality gates in `references/learning-schema.md` (specificity, repeatability, non-obvious, not-already-documented).
 
-### Step 3: Check for Existing Learnings
+### Phase 3 — Disposition Decision (the key step)
 
-Scan `memory/learnings/` for similar learnings. Reinforce, refine, or flag contradictions.
+For each learning, classify the disposition. Walk through these in order — stop at the first one that fits:
 
-### Step 4: Present for Approval
+| Disposition | Use when | Target |
+|---|---|---|
+| **Skill update** | Learning changes how a workflow runs | Edit relevant `.claude/skills/{skill}/SKILL.md` |
+| **Reference update** | Learning changes a documented fact, framework, or convention | Edit relevant `references/{file}.md` |
+| **New reference file** | Learning is reusable across many tasks but no existing reference fits | Create new `references/` file with frontmatter |
+| **CLAUDE.md update** | Learning fundamentally affects all sessions in this vault (rare) | Edit `CLAUDE.md` |
+| **Memory entry** | Learning is user/persona/stakeholder-specific and doesn't generalize | Append to relevant `memory/` file |
+| **Audit-only** | Interesting but not actionable in any file | Log only, no file change |
 
-Show the proposed learning. User approves, edits, or rejects. Only write after approval.
+See `references/learning-schema.md` for worked examples and the disposition decision questions.
 
-### Step 5: Write the Learning File
+**Two scope decisions inside disposition:**
 
-Write to `memory/learnings/` as an individual markdown file. One insight per file.
+1. **Local vault vs. persona-creator template?** When working in a deployed persona, default to *that vault's* skills/references/CLAUDE.md. Only escalate to persona-creator (cascades to all future personas) when the learning is fleet-wide — flag the escalation so the user approves the cross-vault edit.
+2. **Existing file vs. new file?** Prefer updating an existing file. New files only when no existing file has the right scope.
 
-**Filename convention:** `{category}-{brief-descriptor}-{YYYY-MM-DD}.md`
+**Default to Skill update or Reference update.** Memory is the fallback. Before writing memory, ask explicitly: "Could this go in a skill or reference instead?"
 
-### Step 6: Surface Prior Learnings (Integration)
+### Phase 4 — Propose to User (with budget gate)
 
-At the START of work:
+**Step 4a — Budget check.** Before showing the diff, compute target file post-edit word count. Apply ceilings: **SKILL.md = 1,500 words; reference = 2,000; CLAUDE.md = 1,500.** Memory and audit-only dispositions skip the gate.
 
-1. Read `memory/learnings/` filtered by category
-2. Surface relevant learnings before beginning
-3. Apply templates automatically
-4. Flag failure-type learnings as warnings
+If post-edit exceeds the ceiling, **redirect** instead of proposing:
+- **Skill update over ceiling** → New reference file + one-line pointer in the skill (the stakeholder-playbook pattern).
+- **Reference update over ceiling** → Split into sub-references, OR trim older sections that don't fire in `_log.md` recently, then add.
+- **CLAUDE.md update over ceiling** → New reference file + pointer in CLAUDE.md.
 
-Integration points: surface learnings tagged with relevant categories before beginning any research task or analysis.
+Full redirect table and worked examples in `references/learning-schema.md`.
 
-## Learning File Format
+**Step 4b — Present the proposal.** Show each learning with the budget line visible at decision time:
 
-```markdown
----
-title: "[Descriptive title]"
-type: memory
-updated: [date]
-categories:
-  - learning
-  - [domain category: research, methodology, source, market, stakeholder, voice]
-tags:
-  - [pattern, template, preference, failure]
-status: active
-scope: gpg-strategic-research
-confidence: [high, medium, low]
-summary: "[One-sentence takeaway]"
-related:
-  - [source file if applicable]
----
-
-# [Descriptive Title]
-
-## Context
-[What task produced this learning]
-
-## The Learning
-[Specific enough to act on]
-
-## When to Apply
-[Name the task type or situation]
-
-## Confidence
-[HIGH / MEDIUM / LOW — and why]
+```
+LEARNING: [takeaway]
+CONFIDENCE: [High | Medium | Low]
+DISPOSITION: [type]
+TARGET FILE: [path]
+BUDGET: [current] → [post-edit] / [ceiling] (under | OVER by N)
+PROPOSED DIFF:
+[exact text]
 ```
 
-## Synthesis Mode
+When redirected, show both: original target's budget overflow AND the redirected proposal (new file path + pointer text + content).
 
-When the user asks "what patterns are we seeing" or 10+ learnings accumulate:
+Show all learnings together for High-stakes sessions; inline for Medium. The user approves, edits, redirects, or rejects. This is the curation gate — do not skip the diff or the budget line.
 
-1. Cluster by theme
-2. Identify contradictions
-3. Propose promotions to reference files or methodology updates
-4. User decides what gets promoted
+### Phase 5 — Apply on Approval
+
+For each approved learning:
+1. Make the file edit using Edit tool (or Write for new files)
+2. If the target file's frontmatter has `updated:`, the PostToolUse hook handles the date bump automatically
+3. Confirm the change landed
+
+### Phase 6 — Audit Log
+
+Append a single line to `memory/users/{username}/learnings/_log.md` per applied learning:
+
+```
+2026-05-06 | Skill update | persona-audit/SKILL.md | Added routing decay check (Section 1)
+2026-05-06 | Reference update | references/architecture-guide.md | Added "Memory vs. Orchestration" section
+2026-05-06 | Memory | gpg-bi-strategy/memory/stakeholder-pulse.md | Lisa McNeece origin = Grimmway
+2026-05-06 | Audit-only | (no file change) | Multi-paragraph stakeholder names — watch for more data
+```
+
+This is the only thing written to memory under the new model. It's an append-only audit trail, not a substitute for orchestration. See `references/learning-schema.md` for the full `_log.md` format.
+
+### Phase 7 — Surface Prior Learnings (at task start, not session end)
+
+When starting any deliverable, scan recent `_log.md` entries (last ~20 lines or last 30 days) for patterns relevant to the current task. Flag any that apply:
+
+> "Recent learnings that apply here: [list]. The relevant skill/reference has already been updated — proceeding with current orchestration."
+
+You don't need to re-read the target files — they're already loaded by normal scan-then-load. The `_log.md` scan is just a sanity check that the orchestration changes are catching the patterns they were meant to catch.
+
+If a `_log.md` entry exists for a pattern but Claude is about to repeat the old behavior anyway, that's a flag — the orchestration update may not have actually taken effect (e.g., wrong target file, edit didn't land where the routing actually points). Surface this to the user.
 
 ## Common Pitfalls
 
-- **Compounding everything.** Not every research session produces a learning.
-- **Generic learnings.** Must be specific and actionable.
-- **Never reviewing learnings.** Surface at task start or the system is dead weight.
-- **Autonomous memory drift.** Claude does NOT write learnings without user approval.
+- **Memory-by-default.** Memory is the fallback. If a learning ends up there, the disposition step must justify why it doesn't fit a skill or reference.
+- **Vague proposals.** "I'll update persona-audit" without showing the diff is a bypass. Show the exact text.
+- **Cross-vault edits without approval.** Editing persona-creator's templates from inside a deployed persona affects every future persona — flag explicitly.
+- **Compounding everything.** Stakes Classification gates this. If the session produced no novel learning, capture nothing.
+- **Skipping the audit log.** Even "audit-only" dispositions get a line in `_log.md`. Entries without a corresponding file edit are still valid.
+- **Stale patterns.** If `_log.md` shows three entries on the same pattern targeting the same file, the file edit isn't holding — investigate why.
 
 ## Interface
 
 ### Expects
-- Completed deliverable or outcome observation
-- Active user identified
+- Completed deliverable or outcome observation from the current session
+- Active user identified (from session-start or Session Start Sequence)
+- Knowledge of which vault you're in (deployed persona vs. persona-creator)
 
 ### Produces
-- **Capture mode:** Individual learning file in `memory/learnings/`
-- **Surfacing mode:** Prior learnings at task start
-- **Synthesis mode:** Clustered analysis with promotion recommendations
+- One or more orchestration-layer file edits (skill, reference, CLAUDE.md, or memory)
+- One or more lines appended to `memory/users/{username}/learnings/_log.md`
+- Behavior change visible in the next session
 
-> **Done.** Learning captured (or surfaced, or synthesized). Run `/sync` to save progress, or `/wrap` if this was your last task.
+> **Done.** Learning(s) promoted into orchestration. Run `/sync` to save progress, or `/wrap` if this was your last task.
