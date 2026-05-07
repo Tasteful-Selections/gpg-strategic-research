@@ -37,7 +37,9 @@ Memory doesn't reliably get scanned mid-task — a learning there sits hoping Cl
 
 **Implicit triggers (offer, don't force):** after a persona build / audit / skill file, after a significant outcome, after a deliverable goes through revision (the delta IS the learning).
 
-**Do NOT trigger:** session digests (session-wrap handles), decision logging (decision-journal handles), exchanges under ~100 words, or when the user says "skip".
+**Do NOT self-trigger:** decision logging (decision-journal handles), exchanges under ~100 words, or when the user says "skip".
+
+**Auto-call from `/wrap`:** session-wrap calls this skill as a step when session markers fire (orchestration edits, multi-file changes, explicit "save that" phrases) — see session-wrap SKILL.md step 3. The propose-approve gate preserves user control: each proposal shows its budget line and the user approves, edits, redirects, or skips. Compound's resulting file edits get bundled into the wrap commit.
 
 ## Stakes Classification (gate before disposition)
 

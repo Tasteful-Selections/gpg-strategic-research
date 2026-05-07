@@ -89,6 +89,18 @@ When the original disposition would push the target over its ceiling, redirect:
 | **CLAUDE.md update** | New reference file with a one-line pointer added to CLAUDE.md. CLAUDE.md should stay routing-and-identity, not detail. |
 | **New reference file** | Already a fresh file — no redirect needed unless the new reference would itself exceed 2,000 words at creation time, in which case scope it tighter or split it pre-emptively. |
 
+### Routing via `consults:` Frontmatter (Already-Over-Ceiling Skills)
+
+When a SKILL.md is **already over ceiling at audit time**, even a one-line body pointer adds bytes to a skill that needs slimming. Route the new reference via the SKILL.md's `consults:` frontmatter array instead of the body:
+
+```yaml
+consults:
+  - references/existing-ref.md
+  - references/new-from-this-disposition.md  # body unchanged
+```
+
+The reference becomes discoverable via scan-then-load when the skill triggers. The skill body stays at its current word count — no body edit, no further bloat. Use for chronically over-budget skills where slimming is a separate refactor thread, not part of the current audit. Log the pre-existing overflow as a carry-forward thread; do not silently absorb it.
+
 ### Showing the Budget in the Proposal
 
 Every proposal must include a BUDGET line so the user can see the consequence at decision time:
@@ -154,6 +166,14 @@ YYYY-MM-DD | Disposition | Target file | Brief description
 2026-05-06 | Audit-only | (no file change) | Multi-paragraph stakeholder names — watch for more data
 2026-05-06 | Cross-vault | persona-creator/.claude/skills/persona-design/SKILL.md | Phase 8 deploys _log.md template
 ```
+
+**Cross-User Migration Attribution.** When promoting another user's patterns on their behalf in a multi-user vault, append `[migrated by {acting-user}]` to the brief description so the originating user knows attribution at scan time:
+
+```
+2026-05-07 | New reference | references/catman-slide-conventions.md | Section-header titles for catman decks [migrated by jon]
+```
+
+The acting user also adds an entry to `memory/shared/changelog.md` documenting the cross-user write.
 
 **Frontmatter for `_log.md`:**
 ```yaml
