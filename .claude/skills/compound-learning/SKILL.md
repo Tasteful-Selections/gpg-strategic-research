@@ -29,7 +29,7 @@ This is semi-autonomous: Claude proposes the learning AND its target file with a
 
 ## Why Disposition-First
 
-Memory doesn't reliably get scanned mid-task — a learning there sits hoping Claude finds it. A learning in a SKILL.md changes behavior next session, automatically. That's the difference between accumulating and compounding. Full rationale in `references/architecture-guide.md` → "Memory vs. Orchestration."
+Memory doesn't reliably get scanned mid-task — a learning there sits hoping Claude finds it. A learning in a SKILL.md changes behavior next session, automatically. That's the difference between accumulating and compounding. Full rationale in `persona-creator/references/architecture-guide.md` → "Memory vs. Orchestration."
 
 ## When to Use
 
