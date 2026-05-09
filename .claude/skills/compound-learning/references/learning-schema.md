@@ -71,9 +71,9 @@ Every Skill update / Reference update / CLAUDE.md update / New reference disposi
 
 | Target type | Ceiling | Source |
 |---|---|---|
-| SKILL.md files | 1,500 words | architecture-guide.md → Token Budget Guidelines |
-| Reference files | 2,000 words | architecture-guide.md → Token Budget Guidelines |
-| CLAUDE.md (identity text) | 1,500 words | architecture-guide.md → Token Budget Guidelines |
+| SKILL.md files | 1,500 words | persona-creator/references/architecture-guide.md → Token Budget Guidelines |
+| Reference files | 2,000 words | persona-creator/references/architecture-guide.md → Token Budget Guidelines |
+| CLAUDE.md (identity text) | 1,500 words | persona-creator/references/architecture-guide.md → Token Budget Guidelines |
 | Context files | 2,000 words | (memory entries don't gate, but check this if the disposition is "Reference update" on a context file) |
 
 Memory entries and audit-only dispositions skip the gate. Memory bloat is governed by digest archival policy and `_log.md` quarterly roll-up, not the compound-learning gate.
@@ -132,19 +132,19 @@ Without it, every successful compound-learning run adds ~50-100 words to a skill
 | Learning | Disposition | Target | Why |
 |---|---|---|---|
 | "When auditing, also diff CLAUDE.md routing against actual directory contents" | Skill update | `persona-audit/SKILL.md` Section 1 | Changes how the audit workflow runs |
-| "Topic-clustered learnings outperform chronological per-insight files" | Reference update | `architecture-guide.md` | Documents an architectural convention |
+| "Topic-clustered learnings outperform chronological per-insight files" | Reference update | `persona-creator/references/architecture-guide.md` | Documents an architectural convention |
 | "Cross-model deployment validates with three-layer protocol" | New reference file | `cross-model/validation-protocol.md` | Reusable across personas, no existing file scoped right |
 | "Always run domain-research before encoding domain claims" | CLAUDE.md update | Research Integration section | Affects every session in the vault |
 | "Ross prefers structural overrides without pushback when framed cleanly" | Memory entry | `gpg-bi-strategy/memory/stakeholder-pulse.md` (Ross entry) | Stakeholder-specific, doesn't generalize |
 | "Jon wants audit scores as PASS/NEEDS WORK/BROKEN, not numeric" | Memory entry | `memory/users/jon/preferences.md` | User-specific |
-| "Compound-learning was writing to memory by default" | Reference update | `architecture-guide.md` (Memory vs. Orchestration) | This very change — fundamental architectural pattern |
+| "Compound-learning was writing to memory by default" | Reference update | `persona-creator/references/architecture-guide.md` (Memory vs. Orchestration) | This very change — fundamental architectural pattern |
 | "Multi-paragraph stakeholder names sometimes mis-parsed — needs more data" | Audit-only | `_log.md` only | Single observation, hypothesis, no clear action yet |
 
 ## Anti-Patterns (do NOT capture)
 
 - **Tautologies:** "Good personas have good identity text." No actionable content.
 - **Environment-specific:** "My machine needed a restart before the hook worked." One-time debugging.
-- **Already in references:** If `architecture-guide.md` already says this, don't duplicate it as a learning.
+- **Already in references:** If `persona-creator/references/architecture-guide.md` already says this, don't duplicate it as a learning.
 - **Emotional reactions:** "That audit was frustrating." Not a reusable insight.
 - **Vague resolutions:** "Need to be more careful next time." With what? When? How?
 
